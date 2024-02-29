@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>key.encoding.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="oxygenherzlich.xpr">
+        <folder path="../../../../../../../Program%20Files/Oxygen%20XML%20Editor%2026/"/>
+        <file name="24-02-14_1_Choral_Herzlich%20tut%20mich%20verlangen.mei"/>
+        <file name="24-02-14_2_Coro_Herzlich%20tut%20mich%20verlangen.mei"/>
+        <file name="24-02-14_3_Aria_Herzlich%20tut%20mich%20verlangen.mei"/>
+        <file name="24-02-14_4_R%C3%A9citatif_Herzlich%20tut%20mich%20verlangen%20(1).mei"/>
+        <file name="24-02-14_5_Aria_Herzlich%20tut%20mich%20verlangen.mei"/>
+        <file name="24-02-14_6_R%C3%A9citatif_Herzlich%20tut%20mich%20verlangen.mei"/>
+        <file name="24-02-14_7_Choral_Herzlich%20tut%20mich%20verlangen.mei"/>
+    </projectTree>
+</project>
