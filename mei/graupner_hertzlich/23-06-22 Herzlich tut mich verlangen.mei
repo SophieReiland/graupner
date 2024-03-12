@@ -17605,8 +17605,7 @@
                      </staff>
                      <staff xml:id="s13830h2" n="19">
                         <layer xml:id="lmggn0n" n="1">
-                           <note xml:id="n19vvggn" dur.ppq="2" dur="8" oct="3" pname="a" stem.dir="down">
-                              <verse xml:id="v9zk2dr" label="section" n="17" />
+                           <note xml:id="n19vvggn" dur.ppq="2" dur="8" oct="3" pname="a" stem.dir="down">n
                            </note>
                            <note xml:id="n1fgabkf" dur.ppq="2" dur="8" oct="3" pname="d" stem.dir="down">
                               <verse xml:id="vimfn9m" label="section" n="17">
@@ -22115,7 +22114,9 @@
                                  </verse>
                               </note>
                               <note xml:id="n1m49szq" dur.ppq="2" dur="8" oct="3" pname="a" stem.dir="down">
-                                 <verse xml:id="v1pyu4pm" label="section" n="17" />
+                                 <verse xml:id="v1pyu4pm" label="section" n="17" >
+                                    <syl>hhh</syl>
+                                 </verse>
                               </note>
                            </beam>
                         </layer>

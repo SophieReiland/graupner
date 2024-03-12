@@ -7,25 +7,42 @@
          <titleStmt xml:id="tootpty">
             <title>Herzlich tut mich verlangen</title>
             <respStmt>
-               <persName role="composer">Christoph Graupner </persName>
-               <persName role="lyricist">Johann Conrad Lichtenberg </persName>
+               <persName role="composer" corresp="#graupnerC">Christoph Graupner</persName>
+               <persName role="lyricist">Johann Conrad Lichtenberg</persName>
             </respStmt>
          </titleStmt>
          <editionStmt xml:id="sjnfklxbeh">
             <edition>
-               <respStmt>
-                  <persName role="editor">
-                     Sophie Reiland
-                  </persName>
-               </respStmt>
+               <title></title>
+               <date></date> 
             </edition>
+            <editor>
+               <persName>Sophie Reiland</persName>
+            </editor>
          </editionStmt>
          <pubStmt xml:id="p100jw88">
             <date isodate="2024-02-14" type="encoding-date">2024-02-14</date>
          </pubStmt>
          <sourceDesc xml:id="sjfgadk">
             <source xml:id="sourceab"> 
-               <bibl>Graupner, Christoph, Hertzlich thut mich verlangen, ms. autogr., D-DS Mus ms 429-28, Darmstadt, 1721.</bibl>
+               <bibl>
+                  <persName xml:id="graupnerC">Graupner, Christoph</persName>
+                  <title>Hertzlich thut mich verlangen</title>
+                  <date>1721</date> <!-- à préciser -->
+                  <physLoc><repository><identifier>D-DS, Mus ms 429-28</identifier></repository></physLoc>
+                 
+                  <creation>
+                     <date>[date de la création]</date>
+                     <geogName >Darmstadt</geogName>
+                     <geogName >Hofkapelle</geogName>
+                  </creation>
+                  <identifier type="RISM">[ddd]</identifier> <!-- à préciser -->
+                  <relatedItem rel="otherFormat">
+                     <bibl>
+                        <identifier type="purl">[URL à compléter]</identifier> <!-- à préciser -->
+                     </bibl>
+                  </relatedItem> 
+               </bibl>
             </source>
             <source xml:id="sourcec">
                <bibl>Lichtenberg, Johann Conrad,Geistliche Betrachtungen, welche nach gewissen in denen Fest- und Sontags Evangeliis
@@ -40,7 +57,14 @@
                <name xml:id="n1xubqvo">Verovio</name>
                <p xml:id="p1ibcr28">Transcoded from MusicXML</p>
             </application>
-         </appInfo>
+         </appInfo> 
+         <editorialDecl>
+            <head>[Titre]</head> <!-- décrire l'édition, la transcription -->
+            <p> [Texte libre]</p>
+         </editorialDecl>
+         <projectDesc> <!--  stage, etc. -->
+            <p></p>
+         </projectDesc>   
       </encodingDesc>
       <workList>
          <work xml:id="dfnjs">
@@ -8656,5 +8680,15 @@
             </score>
          </mdiv>
       </body>
+      <back>
+         <div>
+            <list>
+               <li>
+                  <periodName xml:id="graupnerC">Graupnner</periodName>
+               </li>
+            </list>
+         </div>
+      </back>
    </music>
+  
 </mei>
