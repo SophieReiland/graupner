@@ -13,22 +13,30 @@
          </titleStmt>
          <editionStmt xml:id="sjnfklxbeh">
             <edition>
-               <title></title>
-               <date></date> 
+               <title>Herzlich tut mich verlangen</title>
+               <date xml:id="lastcodeupdate">18/03/2024</date> 
+               <term xml:id="typeofedition">Édition critique et scientifique</term>
             </edition>
             <editor>
-               <persName>Sophie Reiland</persName>
+               <persName>Sophie Reiland-Mézil</persName>
             </editor>
          </editionStmt>
          <pubStmt xml:id="p100jw88">
-            <date isodate="2024-02-14" type="encoding-date">2024-02-14</date>
+            <date xml:id="publish-date"> <!-- à préciser --></date>
+            <publisher xml:id="fdshsfdioa">IReMus</publisher>
+            <address xml:id="ldhesf">
+               <addrLine>Institut de recherche en Musicologie</addrLine>
+               <addrLine>Bibliothèque National de France</addrLine>
+               <addrLine>Quai François Mauriac</addrLine>
+               <addrLine>75706 PARIS</addrLine>
+            </address>
          </pubStmt>
-         <sourceDesc xml:id="sjfgadk">
+         <sourceDesc xml:id="sjfgadk"> <!-- à discuter : issue #15. Je crois que toutes ces informations sont plus appropriées dans la balise manifestation. -->
             <source xml:id="sourceab"> 
                <bibl>
                   <persName xml:id="graupnerC">Graupner, Christoph</persName>
                   <title>Hertzlich thut mich verlangen</title>
-                  <date>1721</date> <!-- à préciser -->
+                  <date xml:id="fertigstellungsdatum">M. N. 1721</date> 
                   <physLoc><repository><identifier>D-DS, Mus ms 429-28</identifier></repository></physLoc>
                  
                   <creation>
@@ -49,6 +57,19 @@
                   enthaltenen Materien poetisch verfasset in der Hoch-Fürstl. Hof-Capelle zu DARMSTADT das ganze 1721.
                   Jahr hindurch in der ordentlichen Kirchen-MUSIC sollen musicieret werden., Darmstadt, Caspar Klug, 1721.</bibl>
             </source>
+            <source>
+               <bibl>
+                  <title>Hertzlich thut mich verlangen (GWV 1165/21)
+                     <lb></lb>Édition critique de la cantate de Christoph Graupner et
+                        exploration de la situation sociale
+                  </title>
+                  <author>Regina Sophie Reiland</author>
+                  <date xml:id="soumisle">22 juin 2023</date>
+                  <annot>Dossier de Master 1, parcours recherche en musicologie</annot>
+                  <geogName xml:id="institutionacademique">Sorbonne université</geogName>
+                  <unpub></unpub>
+               </bibl>
+            </source>
          </sourceDesc>
       </fileDesc>
       <encodingDesc xml:id="eippgzl">
@@ -58,13 +79,14 @@
                <p xml:id="p1ibcr28">Transcoded from MusicXML</p>
             </application>
          </appInfo> 
-         <editorialDecl>
+         <editorialDecl> <!-- à discuter, voir issue #16 -->
             <head>[Titre]</head> <!-- décrire l'édition, la transcription -->
             <p> [Texte libre]</p>
          </editorialDecl>
-         <projectDesc> <!--  stage, etc. -->
-            <p></p>
-         </projectDesc>   
+         <projectDesc> 
+            <p>Stage à l'IReMus dans le cadre des études de master</p>
+            <p>encadrant Christophe Guillotel-Nothmann</p>
+         </projectDesc>
       </encodingDesc>
       <workList>
          <work xml:id="dfnjs">
@@ -77,8 +99,80 @@
                <persName role="lyricist">Johann Conrad Lichtenberg</persName>
                <date startdate="1689" enddate="1751"></date>
             </lyricist>
+            <funder>
+               <persName role="employer">Ernst-Ludwig von Hessen-Darmstadt</persName>
+               <date startdate="1667" enddate="1739"></date>
+            </funder>
+            <creation>
+               <geogName>La cour de Darmstadt</geogName>
+               <date xml:id="seloncgg">23 novembre 1721</date>
+               <geogName xml:id="probable">Schlosskapelle zu Darmstadt</geogName>
+               <region xml:id="fuerstentum">Landgrafschaft Hessen-Darmstadt</region>
+               <periodName>Baroque</periodName>
+               <name role="musicalensemble">Hofkapelle zu Darmstadt</name>
+               <persName role="musicaldirector">Christoph Graupner</persName>
+            </creation>
+            <audience>La cour à Darmstadt</audience>
          </work>
       </workList>
+      <manifestationList>
+         <manifestation>
+            <titleStmt>
+               <title>Hertzlich thut mich verlangen</title>
+               <composer>Christoph Graupner</composer>
+            </titleStmt>
+            <physDesc>
+               <dimensions>
+                  <height>34,5cm</height>
+                  <width>21cm</width>
+               </dimensions>
+               <foliaDesc> <!-- Je ne suis pas très sûre si cela est important -->
+                  <bifolium></bifolium>
+               </foliaDesc>
+               <bindingDesc>
+                  <condition>Détaché au niveau du pli</condition>
+               </bindingDesc>
+               <scriptDesc> Écriture cursive allemande, quelques mots et passage en écriture latine
+               </scriptDesc>
+               <condition>Quelques fol. endommagés par la corrosion d'encre</condition>
+               <stamp>
+                  <address> <!-- à compléter : où se trouvent les tampons sur les folios ? -->
+                     <addrLine>Grossherzoglich</addrLine>
+                     <addrLine>Hessische</addrLine>
+                     <addrLine>Hofbibliothek</addrLine>
+                  </address>
+               </stamp>
+               <layoutDesc>
+                  Espace de chaque page est exploité au maximum
+               </layoutDesc>
+            </physDesc>
+            <physLoc>
+               <repository>
+                  <identifier auth="RISM">D-Ds</identifier>
+                  <identifier auth="cote de la bibliothèque">Mus ms 429-28</identifier>
+                  <identifier auth="RISM-ID">450005983</identifier>
+               </repository>
+            </physLoc>
+            <langUsage>
+               <language>Allemand</language>
+            </langUsage>
+         </manifestation>
+         <manifestation> <!-- à compléter -->
+            <titleStmt>
+               <title>
+                  Geistliche Betrachtungen/welche nach gewissen in denen Fest- und Sontags Evangeliis enthaltenen
+                  Materien/poetisch verfasset/In der Hoch=Fürstl. Hof=Capelle zu DARMSTADT das gantze
+                  1721.te Jahr hindurch in der ordentlichen Kirchen=MUSIC sollen musiciret werden.
+               </title>
+               <author>
+                  Johann Conrad Lichtenberg
+               </author>
+            </titleStmt>
+            <physDesc>
+               <!-- à compléter -->
+            </physDesc>
+         </manifestation>
+      </manifestationList>
    </meiHead>
    <music>
       <body>
@@ -8684,7 +8778,7 @@
          <div>
             <list>
                <li>
-                  <periodName xml:id="graupnerC">Graupnner</periodName>
+                  <periodName xml:id="graupnerc">Graupnner</periodName>
                </li>
             </list>
          </div>
