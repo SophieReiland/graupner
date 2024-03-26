@@ -7,15 +7,15 @@
          <titleStmt xml:id="tootpty">
             <title>Herzlich tut mich verlangen</title>
             <respStmt>
-               <persName role="composer" corresp="#graupnerC">Christoph Graupner</persName>
+               <persName role="composer" xml:id="graupnerC" corresp="#graupnerC">Christoph Graupner</persName>
                <persName role="lyricist">Johann Conrad Lichtenberg</persName>
             </respStmt>
          </titleStmt>
          <editionStmt xml:id="sjnfklxbeh">
             <edition>
                <title>Herzlich tut mich verlangen</title>
-               <date xml:id="lastcodeupdate">18/03/2024</date>
-               <term xml:id="typeofedition">Édition critique et scientifique</term>
+               <date xml:id="lastcodeupdate">26/03/2024</date>
+               <term xml:id="typeofedition">Wissenschaftlich-kritische Edition</term>
             </edition>
             <editor>
                <persName>Sophie Reiland-Mézil</persName>
@@ -33,35 +33,6 @@
             </address>
          </pubStmt>
          <sourceDesc xml:id="sjfgadk">
-            <!-- à discuter : issue #15. Je crois que toutes ces informations sont plus appropriées dans la balise manifestation. -->
-            <source xml:id="sourceab">
-               <!--<bibl>
-                  <persName xml:id="graupnerC">Graupner, Christoph</persName>
-                  <title>Hertzlich thut mich verlangen</title>
-                  <date xml:id="fertigstellungsdatum">M. N. 1721</date>
-                  <physLoc>
-                     <repository><identifier>D-DS, Mus ms 429-28</identifier></repository>
-                  </physLoc>
-                  <creation>
-                     <date>[date de la création]</date>
-                     <geogName>Darmstadt</geogName>
-                     <geogName>Hofkapelle</geogName>
-                  </creation>
-                  <relatedItem rel="otherFormat">
-                     <bibl>
-                        <identifier type="purl">[URL à compléter]</identifier>
-                        <!-\- à préciser -\->
-                     </bibl>
-                  </relatedItem>
-               </bibl>-->
-            </source>
-            <!--<source xml:id="sourcec">
-               <bibl>Lichtenberg, Johann Conrad,Geistliche Betrachtungen, welche nach gewissen in
-                  denen Fest- und Sontags Evangeliis enthaltenen Materien poetisch verfasset in der
-                  Hoch-Fürstl. Hof-Capelle zu DARMSTADT das ganze 1721. Jahr hindurch in der
-                  ordentlichen Kirchen-MUSIC sollen musicieret werden., Darmstadt, Caspar Klug,
-                  1721.</bibl>
-            </source>-->
             <source>
                <bibl>
                   <title>Hertzlich thut mich verlangen (GWV 1165/21) <lb/>Édition critique de la
@@ -87,10 +58,15 @@
             <!-- proposer les principes généraux pour les carégories suivantes -->
             <interpretation>
                <head>Interpretation</head>
-               <p></p>
+               <p type="Repetitions">
+                  Es werden im Allgemeinen 
+               </p>
             </interpretation>
             <normalization>
-               <p></p>
+               <head>Anpassungen</head>
+               <p type="clefs">
+                  Es werden moderne Notenschlüssel verwendet. Die Originalnotenschlüssel werden in Kleinstich am Anfang der jeweiligen Sätze angezeigt.
+               </p>
             </normalization>
             <segmentation>
                <p></p>
@@ -98,100 +74,258 @@
             <correction>
                <p></p>
             </correction>
-            
-            
-          
-            
-            
+         
             <!-- décrire l'édition, la transcription -->
            
            
          </editorialDecl>
+         
          <projectDesc>
-            <p>Stage à l'IReMus dans le cadre des études de master</p>
-            <p>encadrant Christophe Guillotel-Nothmann</p>
+            <p>Entstanden im Rahmen eines Praktikums am Institut de recherche en musicologie in Paris</p>
+            <p>Betreut durch Christophe Guillotel-Nothmann, Chargé de Recherche des CNRS</p>
          </projectDesc>
+         
       </encodingDesc>
       <workList>
          <work xml:id="dfnjs">
+            <identifier type="Graupner-Werke-Verzeichnis-Nummer">1165/21</identifier> <!-- einfügen: URL -->
             <title>Hertzlich thut mich verlangen</title>
+            
             <composer xml:id="dkjsekjds">
                <persName role="composer">Christoph Graupner</persName>
                <date startdate="1683" enddate="1760"/>
             </composer>
+            
             <lyricist xml:id="sd03xkj">
                <persName role="lyricist">Johann Conrad Lichtenberg</persName>
                <date startdate="1689" enddate="1751"/>
             </lyricist>
+            
             <funder>
                <persName role="employer">Ernst-Ludwig von Hessen-Darmstadt</persName>
                <date startdate="1667" enddate="1739"/>
             </funder>
+            
             <creation>
-               <geogName>La cour de Darmstadt</geogName>
-               <date xml:id="seloncgg">23 novembre 1721</date>
-               <geogName xml:id="probable">Schlosskapelle zu Darmstadt</geogName>
-               <region xml:id="fuerstentum">Landgrafschaft Hessen-Darmstadt</region>
+               <geogName>Darmstädter Hof</geogName>
+               <date type="dateoffirstperformance">23. November 1721, 24. Sonntag nach Trinitatis</date>
+               <geogName type="placeoffirstperformance">Schlosskapelle zu Darmstadt</geogName>
+               <region type="fuerstentum">Landgrafschaft Hessen-Darmstadt</region>
                <periodName>Baroque</periodName>
                <name role="musicalensemble">Hofkapelle zu Darmstadt</name>
                <persName role="musicaldirector">Christoph Graupner</persName>
             </creation>
-            <audience>La cour à Darmstadt</audience>
+            
+            <perfMedium> <!-- issue #26 -->
+               <perfResList type="instrumentation">
+                  <perfRes>Horn in F 1</perfRes>
+                  <perfRes>Horn in F 2</perfRes>
+                  <perfRes>Oboe 1</perfRes>
+                  <perfRes>Oboe 2</perfRes>
+                  <perfRes>Violine 1</perfRes>
+                  <perfRes>Violine 2</perfRes>
+                  <perfRes>Violett 1</perfRes>
+                  <perfRes>Violett 2</perfRes>
+                  <perfRes>Viola</perfRes>
+                  <perfRes>Sopran 1</perfRes>
+                  <perfRes>Sopran 2</perfRes>
+                  <perfRes>Alt</perfRes>
+                  <perfRes>Tenor</perfRes>
+                  <perfRes>Bass</perfRes>
+                  <perfRes>Basso continuo</perfRes>
+                  <perfRes>Violone</perfRes>
+               </perfResList>
+            </perfMedium>
+            
+            <audience>Darmstädter Hofstaat</audience>
+            
          </work>
       </workList>
       <manifestationList>
-         <manifestation>
+         
+         <manifestation type="musicalsource">
+            
             <titleStmt>
                <title>Hertzlich thut mich verlangen</title>
-               <composer>Christoph Graupner</composer>
+               <composer>Christoph Graupner
+                  <date startdate="1683" enddate="1760"></date>
+               </composer>
+               <contributor role="copist">Kopist 1 <!-- ergänzen und überarbeiten! -->
+                  <annot>Beim Vergleich der Handschrift unten in der Canto-2-Stimme mit den anderen Instrumental- und Vokalstimmen liegt der Verdacht nahe, dass es sich um einen Kopisten handelt.</annot>
+                  <locus>Fol. 23r</locus>
+               </contributor>
+               <contributor role="copist">Kopist 2
+                  <annot>Beim Vergleich der Handschrift in der Canto-[bis]-Stimme mit den anderen Instrumental- und Vokalstimmen liegt der Verdacht nahe, dass es sich um einen Kopisten handelt.</annot>
+                  <locus>Fol. 24r</locus>
+               </contributor>
+               <contributor role="copist">Kopist 3
+                  <annot>Beim Vergleich der Handschrift in der Alto-2-Stimme mit den anderen Instrumental- und Vokalstimmen liegt der Verdacht nahe, dass es sich um einen Kopisten handelt.</annot>
+                  <locus>Fol. 26r</locus>
+               </contributor>
             </titleStmt>
+            
             <physDesc>
+               <titlePage>
+                  <title>Hertzlich thut mich verlangen</title>
+                  <identifier type="librarycode">Mus 429/28
+                     <add>Bleistifteintrag</add>
+                  </identifier>
+                  <identifier type="systematicbyGraupner">
+                    i54.
+                  </identifier>
+                  <identifier type="unknown">
+                     28
+                     <add>Bleistifteintrag</add>
+                  </identifier>
+                  <identifier type="unknown">
+                     f(28)11.
+                     <add>Bleistifteintrag</add>
+                  </identifier>
+                  <contents>
+                     <contentItem>Partitur</contentItem>
+                  </contents>
+                  <date type="cantatacyclereference">13= Jahrgang. 1721</date>
+               </titlePage>
                <dimensions>
                   <height>34,5cm</height>
                   <width>21cm</width>
                </dimensions>
                
+               <extent type="foliotation"> 
+                  <persName role="librarian">Johann Elias Niebergall</persName>
+               </extent>
+               <extent type="foliotation">
+                  <persName role="composer">Christoph Graupner</persName>
+                  <annot>Nur auf der Partitur zu finden</annot>
+               </extent>
+               
                <bindingDesc>
-                  <condition>Détaché au niveau du pli</condition>
+                  <condition>Faltung brüchig</condition>
                </bindingDesc>
-               <scriptDesc>Écriture cursive allemande, quelques mots et passage en écriture latine </scriptDesc>
-               <condition>Quelques fol. endommagés par la corrosion d'encre</condition>
-               <stamp facs="#stamp">
-                  <locus>fol. 2</locus>
+               
+               <scriptDesc>Kurrentschrift; Wörter aus dem lateinischen Sprachraum in lateinischer Schrift
+                  <dedicatee>
+                     I.N.J. [In nomine Jesu]
+                     <locus type="Niebergallfoliotation">Fol. 1r</locus>
+                  </dedicatee>
+                  <dedicatee>
+                     Soli Deo Gloria
+                     <locus type="Niebergallfoliotation">Fol. 7v</locus>
+                  </dedicatee>
+                  <date type="compositiondate">
+                     M. N. 1721 [Mitte November 1721?]
+                  </date>
+               </scriptDesc>
+               
+               <condition type="conditionofink">
+                  Einige Folia stärker beschädigt durch Tintenkorrosion, jedoch noch lesbar
+                  <locus type="Niebergallfoliotation">Fol.1r, 3v, 4r, 6v-7v, 8r, 10r-11r, 12r-13r, 16r-17r</locus> 
+               </condition> 
+               <condition type="generalcondition">
+                  Generell gute Lesbarkeit der Quelle, kaum Korrekturen in der Partitur und den Instrumentalstimmen.
+               </condition>
+               
+               <stamp facs="#stamp"> 
+                  <locus>Titelseite, Fol. 1r, 8r, 9v, 10r, 13v, 14v, 15v, 16r, 18v, 19r, 20r, 22v, 23r, 24r, 26r, 27r, 28v</locus>
                   <address>
-                     <!-- à compléter : où se trouvent les tampons sur les folios ? -->
                      <addrLine>Grossherzoglich</addrLine>
                      <addrLine>Hessische</addrLine>
                      <addrLine>Hofbibliothek</addrLine>
                   </address>
                </stamp>
-               <layoutDesc> Espace de chaque page est exploité au maximum </layoutDesc>
+               
+               <layoutDesc>
+                  <layout type="useofspace">Seite in Partitur maximal ausgenutzt
+                  </layout>
+                  <layout type="manuscriptstructure">
+                     <locusGrp>
+                     <locus>
+                        Partitur Fol. 1r-7v 
+                     </locus>
+                     <locus>
+                        Instrumental- und Vokalstimmen Fol. 8r-28v 
+                     </locus>
+                     </locusGrp>
+                  </layout>
+               </layoutDesc>
+               
             </physDesc>
+            
             <physLoc>
                <repository>
-                  <identifier type="RISM" auth="D-Ds" >Universitäts und Landesbibliothek... </identifier>  <!-- auth="D-Ds"  -->
+                  <identifier type="RISM" auth="D-Ds" >Universitäts und Landesbibliothek Darmstadt </identifier>  
                   <identifier auth="cote de la bibliothèque">Mus ms 429-28</identifier>
                   <identifier auth="RISM-ID">450005983</identifier>
                </repository>
             </physLoc>
+            
             <langUsage>
-               <language>Allemand</language>
+               <language>Deutsch</language>
             </langUsage>
+            
          </manifestation>
-         <manifestation>
-            <!-- à compléter -->
-            <titleStmt>
-               <title> Geistliche Betrachtungen/welche nach gewissen in denen Fest- und Sontags
+         
+         <manifestation type="textsource">
+      
+            <titleStmt> <!-- issue #25 -->
+               <title> Glaubige Sehnsucht nach seeligem Sterben
+                  Geistliche Betrachtungen/welche nach gewissen in denen Fest- und Sontags
                   Evangeliis enthaltenen Materien/poetisch verfasset/In der Hoch=Fürstl. Hof=Capelle
                   zu DARMSTADT das gantze 1721.te Jahr hindurch in der ordentlichen Kirchen=MUSIC
-                  sollen musiciret werden. </title>
-               <author> Johann Conrad Lichtenberg </author>
+                  sollen musiciret werden. 
+                  <titlePart type="textofcantata_Hertzlich">
+                     Glaubige Sehnsucht nach seeligem Sterben
+                     <num type="pagenumbers">Seite 171-173</num>
+                  </titlePart>
+               </title>
+               <author> Johann Conrad Lichtenberg 
+                  <date startdate="1689" enddate="1751"></date>
+               </author>
             </titleStmt>
-            <physDesc>
-               <!-- à compléter -->
+            
+            
+            <pubStmt>
+               <publisher>Caspar Klug/ Fürstl. Hessis. Hof= und Cantzley=Buchdrucker.</publisher>
+               <pubPlace>Darmstadt</pubPlace>
+            </pubStmt>
+            
+            <physDesc> 
+               
+               <dimensions>
+                  Oktavformat
+               </dimensions>
+               
+               <extent>
+                  173 Seiten 
+               </extent>
+               
+               <typeDesc>
+                  Gothischer Schriftsatz, mit Ausnahme von Wörtern aus dem lateinischen Sprachraum. Choraltexte und Texte, die nicht als Rezitativ gedacht sind, werden größer gedruckt.
+               </typeDesc>
+
+               
+               <layoutDesc> 
+                  <layout type="fontsize"> 
+                     <p>Die Quelle verwendet verschiedene Schriftgrößen, die auf verschiedene Funktionen innerhalb der Vertonung hinweisen:</p>
+                     <p>Choralstrophen sind immer größer gedruckt, ebenso wie für Arien vorgesehene Verse. Die für Rezitative vorgesehenen Verse sind hingegen kleiner gestochen.</p>
+                  </layout>
+               </layoutDesc>
             </physDesc>
+            
+            <physLoc>
+               <repository>
+                  <corpName type="library">Theologische Bibliothek der Universität Marburg</corpName>
+                  <identifier type="librarysignature">760 </identifier>
+               </repository>
+            </physLoc>
+            
+            <langUsage>
+               <language>Deutsch</language>
+            </langUsage>
+            
          </manifestation>
       </manifestationList>
+      
    </meiHead>
    <music>
       <facsimile> <!-- à voir si nous voulons le faire  -->
