@@ -14,7 +14,7 @@
          <editionStmt xml:id="sjnfklxbeh">
             <edition>
                <title>Herzlich tut mich verlangen</title>
-               <date xml:id="lastcodeupdate">26/03/2024</date>
+               <date xml:id="lastcodeupdate">28/03/2024</date>
                <term xml:id="typeofedition">Wissenschaftlich-kritische Edition</term>
             </edition>
             <editor>
@@ -32,8 +32,8 @@
                <addrLine>75706 PARIS</addrLine>
             </address>
          </pubStmt>
-         <sourceDesc xml:id="sjfgadk">
-            <source>
+         <sourceDesc xml:id="sjfgadk"> <!-- issue #28 -->
+            <source> <!-- ergänzen: URL falls Veröffentlichung -->
                <bibl>
                   <title>Hertzlich thut mich verlangen (GWV 1165/21) <lb/>Édition critique de la
                      cantate de Christoph Graupner et exploration de la situation sociale </title>
@@ -55,29 +55,148 @@
          </appInfo>
          <editorialDecl>
             
-            <!-- proposer les principes généraux pour les carégories suivantes -->
-            <interpretation>
-               <head>Interpretation</head>
-               <p type="Repetitions">
-                  Es werden im Allgemeinen 
+            <segmentation> 
+               <p type="Order of instruments"> <!-- Je sais que segmentation n'est pas le plus élégant, mais je n'ai pas encore trouvé d'autre solution. -->
+                  Es wird die Reihenfolge der einzelnen Instrumente des handschriftlichen Manuskripts beibehalten.
                </p>
+               <p type="mouvements">
+                  Graupner verwendet keine Satzbezeichnungen im herkömmlichen Sinne. Er verwendet lediglich Text-Incipits, doppelte Taktstriche und macht Angaben zur musikalischen Form, wenn ein Instrument pausiert "Recitat: tacet"
+                  <locus type="folio">Beispielsweise zu sehen auf Folio 10v</locus>
+                  Die Sätze werden in dieser Edition in eckigen Klammern folgendermaßen angegeben:
+                  <list>
+                     <li>[1. Choral]</li>
+                     <li>[2. Chor]</li>
+                     <li>[3. Aria]</li>
+                     <li>[4. Rezitativ]</li>
+                     <li>[5. Aria]</li>
+                     <li>[6. Rezitativ]</li>
+                     <li>[7. Choral]</li>
+                  </list>
+               </p>
+            </segmentation>
+            
+            <interpretation>
+               
+               <p type="repetitions">
+                  Es werden die in den Quellen vorhandenen Wiederholungszeichen verwendet, mit einer Ausnahme: In der handschriftlichen Partitur wird die Choralstrophe am Ende nicht noch einmal notiert. Aus musikpraktischen Gründen wurde die zweite Choralstrophe in dieser Edition am Ende ausnotiert.
+               </p>
+               
+               <p type="alteration ambiguity">
+                  Sollte Unklarheit bezüglich der Lesart eines Versetzungszeichen bestehen, erscheint dieses in Klammern vor der Note und ist Thema eines kritischen Kommentars.
+               </p>
+               
+               <p type="rhythmical homogenisation">
+                  Sollte der Rhythmus zwischen zwei Stimmen, die unisono geführt sind, von einander abweichen, werden sie aneinander angeglichen, die Änderung in der Partitur durch Kleinstich angezeigt und in einem kritischen Kommentar erläutert.
+               </p>
+               
+               <p type="beams">
+                  Graupner scheint Notenbalken zu verwenden, um eine Phrasierung anzudeuten. Aus diesem Grund folgt die Edition der von Graupner verwendeten Notengruppierung. 
+               </p>
+               
+               <p type="dynamics">
+                  Graupner verwendet hauptsächlich die Dynamiken pp und f, seltener p. In homophonen Passagen werden Dynamikangaben gegebenenfalls in der Partitur in eckigen Klammern ergänzt und in einem kritischen Kommentar erläutert.
+               </p>
+               
+               <p type="slurs">
+                  Graupners Phrasierung lässt sich nicht eindeutig rekonstruieren, da sie viele Ungenauigkeiten aufweist. Ergänzte Phrasierungen werden durch gepunktete Linien dargestellt und in einem kritischen Kommentar erläutert.
+               </p>
+               
+               <p type="ornements">
+                  Graupner scheint die Zeichen tr und + synonym zu verwenden, wie aus der Violinstimme hervorgeht. 
+                  <locus type="folia">Fol. 10r, Takt 8, 17</locus>
+                  In der Edition wird durchgängig tr verwendet, ohne dass dies in einem kritischen Kommentar erläutert wird.
+               </p>
+               
             </interpretation>
+            
             <normalization>
-               <head>Anpassungen</head>
                <p type="clefs">
                   Es werden moderne Notenschlüssel verwendet. Die Originalnotenschlüssel werden in Kleinstich am Anfang der jeweiligen Sätze angezeigt.
                </p>
+               <p type="instrumental and vocal nomenclature">
+                  Die von Graupner in den einzelnen Stimmen verwendeten Instrumenten- und Stimmbezeichnungen wurden den aktuellen Konventionen angepasst:
+                  <table>
+                     <tr>
+                        <th>Bezeichnungen von Graupner</th>
+                        <td>Corn de Chaße/Corn: de selu I, 2</td>
+                        <td>Flauto, Flauto 2</td>
+                        <td>Hautbois I, 2</td>
+                        <td>Violino I, 2</td>
+                        <td>Violett: I, 2</td>
+                        <td>Viola</td>
+                        <td>Violone</td>
+                        <td>Canto I, 2</td>
+                        <td>Alto</td>
+                        <td>Tenore</td>
+                        <td>Baßo</td>
+                        <td>Continuo</td>
+                     </tr>
+                     <tr>
+                        <th>Bezeichnungen in der Edition</th>
+                        <td>Horn 1, 2</td>
+                        <td>Flöte 1, 2</td>
+                        <td>Oboe 1, 2</td>
+                        <td>Violine 1, 2</td>
+                        <td>Violetta 1, 2</td>
+                        <td>Viola</td>
+                        <td>/ [Da die Violonstimme mit der Continuo-Stimme identisch ist, wird sie in der Partitur nicht extra aufgeführt.]</td>
+                        <td>Sopran 1, 2</td>
+                        <td>Alt</td>
+                        <td>Tenor</td>
+                        <td>Bass</td>
+                        <td>Basso continuo</td>
+                     </tr>
+                  </table>
+               </p>
+               <p type="alterations"> <!-- issue #30 --> 
+                  Die Versetzungszeichen wurden an die modernen Konventionen angepasst. In den folgenden Fällen erfolgt hierzu kein kritischer Kommentar:
+                  <list>
+                     <li>Graupner verwendet keine Auflösungszeichen, stattdessen nutzt er Kreuz und b, um eine Auflösung eines vorherigen Versetzungszeichen anzuzeigen. In dieser Edition werden in diesen Fällen systematisch moderne Auflösungszeichen verwendet.</li>
+                     <li>Die Auflösungszeichen in der handschriftlichen Quelle gelten normalerweise nur für die darauffolgende Note. In dieser Edition gelten Versetzungszeichen, wie in modernen Editionen üblich, für den ganzen Takt.</li>
+                     <li>Zur Erinnerung gesetzte Versetzungszeichen werden in runden Klammern abgebildet.</li>
+                  </list>
+               </p>
+               
+               <p type="rests">
+                  Pausen werden modernen Konventionen angepasst, ohne dass dies in der Partitur kenntlich gemacht wird und einen kritischen Kommentar nach sich zieht.
+               </p>
+               
+               <p type="beams"> <!-- normalisation, interpretation or correction ? -->
+                  Sollte die Balkierung von zwei oder mehr unisono geführten Stimmen von einander abweichen, werden sie ohne kritischen Kommentar angeglichen. Dies geschah nur an einer Stelle im 1. Choral, Takt 7, Vln 1, Ob 1. 
+               </p>
+               
+               <p type="figured bass"> 
+                  Wir folgen der Bezifferung der Continuostimme, die sehr detailliert ist. 
+                  <locus type="folio">Fol. 8v-9v</locus>
+                  Lediglich die Versetzungszeichen werden an moderne Konventionen angepasst, ohne dass dies in der Partitur kenntlich gemacht oder in einem kritischen Kommentar erläutert wird.
+               </p>
+               
+               <p type="text">
+                  Für die Wiederherstellung des Textes dient der Druck des Kantatentextzyklus als Quelle, da die Orthographie und Zeichensetzung Graupners nicht immer leicht lesbar ist und starke Varianz aufweist und nicht immer leicht entzifferbar ist.
+                  Der Text wurde der Neuen Deutschen Rechtschreibung angepasst. Folgende Fälle konnten dabei auftreten:
+                  <list type="cases of text normalization">
+                     <li>Virgel, die bis ins 18. Jahrhundert zur Unterteilung von Sätzen verwendet wurden, werden als moderne Kommata abgebildet. Sollten manche Virgel nicht den modernen Kommaregeln entsprechen, werden sie entfernt. Dies wird jeweils in einem kritischen Kommentar erläutert.</li>
+                     <li>Groß- und Kleinschreibung wird automatisch der Neuen Deutschen Rechtschreibung angepasst, ohne dass dies in einem kritischen Kommentar erklärt wird</li>
+                     <li>Jede orthographische Anpassung wird in einem kritischen Kommentar erläutert</li>
+                     <li>Ausrufezeichen und Fragezeichen inmitten einer Phrase werden systematisch durch Kommata ersetzt. In einigen Fällen werden sie jedoch aus deklamatorischen Gründen beibehalten. In jedem Fall wird dies in einem kritischen Kommentar erläutert</li>
+                     <li>Die Großschreibung der Verse der Quelle wird beibehalten.</li>
+                     <li>Textwiederholungen werden immer durch Kommata getrennt.</li>
+                  </list>
+               </p>
             </normalization>
-            <segmentation>
-               <p></p>
-            </segmentation>
+
             <correction>
-               <p></p>
+               
+               <p type="rhythm">
+                  Sollten die von Graupner verwendeten Rhythmen in Konflikt mit der heutigen Notationskonvention stehen, werden Anpassungen angenommen, die in einem kritischen Kommentar dargelegt werden. In der Partitur werden rhythmische Änderungen durch Kleinstich dargestellt.
+               </p>
+               
+               <p type="figured bass">
+                  Sollte eine Generalbassbezifferung Graupners in Konflikt mit den anderen Stimmen stehen, wird diese korrigiert, in Klammern dargestellt und in einem kritischen Kommentar erläutert.
+               </p>
+
             </correction>
          
-            <!-- décrire l'édition, la transcription -->
-           
-           
          </editorialDecl>
          
          <projectDesc>
@@ -124,8 +243,8 @@
                   <perfRes>Oboe 2</perfRes>
                   <perfRes>Violine 1</perfRes>
                   <perfRes>Violine 2</perfRes>
-                  <perfRes>Violett 1</perfRes>
-                  <perfRes>Violett 2</perfRes>
+                  <perfRes>Violetta 1</perfRes>
+                  <perfRes>Violetta 2</perfRes>
                   <perfRes>Viola</perfRes>
                   <perfRes>Sopran 1</perfRes>
                   <perfRes>Sopran 2</perfRes>
