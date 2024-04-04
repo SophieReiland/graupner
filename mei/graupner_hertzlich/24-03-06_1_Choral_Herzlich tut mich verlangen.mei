@@ -22,8 +22,7 @@
             </editor>
          </editionStmt>
          <pubStmt xml:id="p100jw88">
-            <date xml:id="publish-date">
-               <!-- à préciser --></date>
+            <date xml:id="publish-date" isodate="2024-04">April 2024</date> <!-- mettre à jour si besoin -->
             <publisher xml:id="fdshsfdioa">IReMus</publisher>
             <address xml:id="ldhesf">
                <addrLine>Institut de recherche en Musicologie</addrLine>
@@ -33,6 +32,10 @@
             </address>
          </pubStmt>
          <sourceDesc xml:id="sjfgadk"> <!-- issue #28 -->
+            <source xml:id="source_A" corresp="#manifestation_1"></source>
+            <source xml:id="source_B" corresp="#manifestation_1"></source>
+            <source xml:id="source_C" corresp="#manifestation_2"></source>
+            
             <source> <!-- ergänzen: URL falls Veröffentlichung -->
                <bibl>
                   <title>Hertzlich thut mich verlangen (GWV 1165/21) <lb/>Édition critique de la
@@ -54,11 +57,9 @@
             </application>
          </appInfo>
          <editorialDecl>
-            
+          
             <segmentation> 
-               <p type="Order of instruments"> <!-- Je sais que segmentation n'est pas le plus élégant, mais je n'ai pas encore trouvé d'autre solution. -->
-                  Es wird die Reihenfolge der einzelnen Instrumente des handschriftlichen Manuskripts beibehalten.
-               </p>
+               
                <p type="mouvements">
                   Graupner verwendet keine Satzbezeichnungen im herkömmlichen Sinne. Er verwendet lediglich Text-Incipits, doppelte Taktstriche und macht Angaben zur musikalischen Form, wenn ein Instrument pausiert "Recitat: tacet"
                   <locus type="folio">Beispielsweise zu sehen auf Folio 10v</locus>
@@ -110,8 +111,11 @@
             </interpretation>
             
             <normalization>
+               <p type="Order of instruments"> 
+                  Es wird die Reihenfolge der einzelnen Instrumente des <ref corresp="#source_A">handschriftlichen Manuskripts</ref>  beibehalten.
+               </p>
                <p type="clefs">
-                  Es werden moderne Notenschlüssel verwendet. Die Originalnotenschlüssel werden in Kleinstich am Anfang der jeweiligen Sätze angezeigt.
+                  Es werden moderne Notenschlüssel verwendet. <!--Die Originalnotenschlüssel werden in Kleinstich am Anfang der jeweiligen Sätze angezeigt.-->
                </p>
                <p type="instrumental and vocal nomenclature">
                   Die von Graupner in den einzelnen Stimmen verwendeten Instrumenten- und Stimmbezeichnungen wurden den aktuellen Konventionen angepasst:
@@ -139,7 +143,7 @@
                         <td>Violine 1, 2</td>
                         <td>Violetta 1, 2</td>
                         <td>Viola</td>
-                        <td>/ [Da die Violonstimme mit der Continuo-Stimme identisch ist, wird sie in der Partitur nicht extra aufgeführt.]</td>
+                        <td>[Da die Violonstimme mit der Continuo-Stimme identisch ist, wird sie in der Partitur nicht extra aufgeführt.]</td>
                         <td>Sopran 1, 2</td>
                         <td>Alt</td>
                         <td>Tenor</td>
@@ -151,7 +155,7 @@
                <p type="alterations"> <!-- issue #30 --> 
                   Die Versetzungszeichen wurden an die modernen Konventionen angepasst. In den folgenden Fällen erfolgt hierzu kein kritischer Kommentar:
                   <list>
-                     <li>Graupner verwendet keine Auflösungszeichen, stattdessen nutzt er Kreuz und b, um eine Auflösung eines vorherigen Versetzungszeichen anzuzeigen. In dieser Edition werden in diesen Fällen systematisch moderne Auflösungszeichen verwendet.</li>
+                     <li>Graupner verwendet keine Auflösungszeichen, stattdessen nutzt er ♯ und ♭, um eine Auflösung eines vorherigen Versetzungszeichen anzuzeigen. In dieser Edition werden in diesen Fällen systematisch moderne Auflösungszeichen verwendet.</li>
                      <li>Die Auflösungszeichen in der handschriftlichen Quelle gelten normalerweise nur für die darauffolgende Note. In dieser Edition gelten Versetzungszeichen, wie in modernen Editionen üblich, für den ganzen Takt.</li>
                      <li>Zur Erinnerung gesetzte Versetzungszeichen werden in runden Klammern abgebildet.</li>
                   </list>
@@ -162,17 +166,17 @@
                </p>
                
                <p type="beams"> <!-- normalisation, interpretation or correction ? -->
-                  Sollte die Balkierung von zwei oder mehr unisono geführten Stimmen von einander abweichen, werden sie ohne kritischen Kommentar angeglichen. Dies geschah nur an einer Stelle im 1. Choral, Takt 7, Vln 1, Ob 1. 
+                  Sollte die Balkierung von zwei oder mehr unisono geführten Stimmen von einander abweichen, werden sie ohne kritischen Kommentar angeglichen. Dies geschah nur an einer Stelle im 1. Choral, Takt 7, Vln 1, Ob 1. <!-- faire un renvoi -->
                </p>
                
                <p type="figured bass"> 
-                  Wir folgen der Bezifferung der Continuostimme, die sehr detailliert ist. 
-                  <locus type="folio">Fol. 8v-9v</locus>
+                  Wir folgen der Bezifferung der Continuostimme, <ref type="folio">Fol. 8v-9v</ref> die sehr detailliert ist. 
+                  <locus type="folio"></locus>
                   Lediglich die Versetzungszeichen werden an moderne Konventionen angepasst, ohne dass dies in der Partitur kenntlich gemacht oder in einem kritischen Kommentar erläutert wird.
                </p>
                
                <p type="text">
-                  Für die Wiederherstellung des Textes dient der Druck des Kantatentextzyklus als Quelle, da die Orthographie und Zeichensetzung Graupners nicht immer leicht lesbar ist und starke Varianz aufweist und nicht immer leicht entzifferbar ist.
+                  Für die Wiederherstellung des Textes dient der <ref corresp="#source_C">Druck des Kantatentextzyklus</ref> als Quelle, da die Orthographie und Zeichensetzung Graupners nicht immer leicht lesbar ist und starke Varianz aufweist und nicht immer leicht entzifferbar ist.
                   Der Text wurde der Neuen Deutschen Rechtschreibung angepasst. Folgende Fälle konnten dabei auftreten:
                   <list type="cases of text normalization">
                      <li>Virgel, die bis ins 18. Jahrhundert zur Unterteilung von Sätzen verwendet wurden, werden als moderne Kommata abgebildet. Sollten manche Virgel nicht den modernen Kommaregeln entsprechen, werden sie entfernt. Dies wird jeweils in einem kritischen Kommentar erläutert.</li>
@@ -188,22 +192,18 @@
             <correction>
                
                <p type="rhythm">
-                  Sollten die von Graupner verwendeten Rhythmen in Konflikt mit der heutigen Notationskonvention stehen, werden Anpassungen angenommen, die in einem kritischen Kommentar dargelegt werden. In der Partitur werden rhythmische Änderungen durch Kleinstich dargestellt.
-               </p>
-               
-               <p type="figured bass">
+                  Sollten die von Graupner verwendeten Rhythmen in Konflikt mit der heutigen Notationskonvention stehen, werden Anpassungen angenommen, die in einem kritischen Kommentar dargelegt werden. In der Partitur werden rhythmische Änderungen durch Kleinstich dargestellt.<!-- mettre à jour lorsque l'apparat critique sera mis en place -->
+               </p> 
+               <p type="figuredBass">
                   Sollte eine Generalbassbezifferung Graupners in Konflikt mit den anderen Stimmen stehen, wird diese korrigiert, in Klammern dargestellt und in einem kritischen Kommentar erläutert.
-               </p>
-
-            </correction>
-         
+               </p> 
+            </correction> 
          </editorialDecl>
          
          <projectDesc>
             <p>Entstanden im Rahmen eines Praktikums am Institut de recherche en musicologie in Paris</p>
             <p>Betreut durch Christophe Guillotel-Nothmann, Chargé de Recherche des CNRS</p>
-         </projectDesc>
-         
+         </projectDesc> 
       </encodingDesc>
       <workList>
          <work xml:id="dfnjs">
@@ -254,16 +254,12 @@
                   <perfRes>Basso continuo</perfRes>
                   <perfRes>Violone</perfRes>
                </perfResList>
-            </perfMedium>
-            
-            <audience>Darmstädter Hofstaat</audience>
-            
+            </perfMedium> 
+            <audience>Darmstädter Hofstaat</audience> 
          </work>
       </workList>
-      <manifestationList>
-         
-         <manifestation type="musicalsource">
-            
+      <manifestationList> 
+         <manifestation xml:id="manifestation_1" type="musicalsource"> 
             <titleStmt>
                <title>Hertzlich thut mich verlangen</title>
                <composer>Christoph Graupner
@@ -281,14 +277,12 @@
                   <annot>Beim Vergleich der Handschrift in der Alto-2-Stimme mit den anderen Instrumental- und Vokalstimmen liegt der Verdacht nahe, dass es sich um einen Kopisten handelt.</annot>
                   <locus>Fol. 26r</locus>
                </contributor>
-            </titleStmt>
-            
+            </titleStmt> 
             <physDesc>
                <titlePage>
-                  <title>Hertzlich thut mich verlangen</title>
-                  <identifier type="librarycode">Mus 429/28
-                     <add>Bleistifteintrag</add>
-                  </identifier>
+                  <title>Hertzlich thut mich verlangen</title> 
+                  <identifier type="librarycode">Mus 429/28 
+                  </identifier> 
                   <identifier type="systematicbyGraupner">
                     i54.
                   </identifier>
@@ -308,20 +302,10 @@
                <dimensions>
                   <height>34,5cm</height>
                   <width>21cm</width>
-               </dimensions>
-               
-               <extent type="foliotation"> 
-                  <persName role="librarian">Johann Elias Niebergall</persName>
-               </extent>
-               <extent type="foliotation">
-                  <persName role="composer">Christoph Graupner</persName>
-                  <annot>Nur auf der Partitur zu finden</annot>
-               </extent>
-               
+               </dimensions> 
                <bindingDesc>
                   <condition>Faltung brüchig</condition>
-               </bindingDesc>
-               
+               </bindingDesc> 
                <scriptDesc>Kurrentschrift; Wörter aus dem lateinischen Sprachraum in lateinischer Schrift
                   <dedicatee>
                      I.N.J. [In nomine Jesu]
@@ -331,19 +315,17 @@
                      Soli Deo Gloria
                      <locus type="Niebergallfoliotation">Fol. 7v</locus>
                   </dedicatee>
-                  <date type="compositiondate">
+                  <date isodate="1721" type="compositionDate">
                      M. N. 1721 [Mitte November 1721?]
                   </date>
-               </scriptDesc>
-               
-               <condition type="conditionofink">
+               </scriptDesc> 
+               <condition type="conditionOfInk">
                   Einige Folia stärker beschädigt durch Tintenkorrosion, jedoch noch lesbar
                   <locus type="Niebergallfoliotation">Fol.1r, 3v, 4r, 6v-7v, 8r, 10r-11r, 12r-13r, 16r-17r</locus> 
                </condition> 
-               <condition type="generalcondition">
+               <condition type="generalCondition">
                   Generell gute Lesbarkeit der Quelle, kaum Korrekturen in der Partitur und den Instrumentalstimmen.
-               </condition>
-               
+               </condition> 
                <stamp facs="#stamp"> 
                   <locus>Titelseite, Fol. 1r, 8r, 9v, 10r, 13v, 14v, 15v, 16r, 18v, 19r, 20r, 22v, 23r, 24r, 26r, 27r, 28v</locus>
                   <address>
@@ -351,12 +333,11 @@
                      <addrLine>Hessische</addrLine>
                      <addrLine>Hofbibliothek</addrLine>
                   </address>
-               </stamp>
-               
+               </stamp> 
                <layoutDesc>
-                  <layout type="useofspace">Seite in Partitur maximal ausgenutzt
+                  <layout type="useOfSpace">Seite in Partitur maximal ausgenutzt
                   </layout>
-                  <layout type="manuscriptstructure">
+                  <layout type="manuscriptStructure">
                      <locusGrp>
                      <locus>
                         Partitur Fol. 1r-7v 
@@ -365,27 +346,32 @@
                         Instrumental- und Vokalstimmen Fol. 8r-28v 
                      </locus>
                      </locusGrp>
-                  </layout>
-               </layoutDesc>
-               
-            </physDesc>
-            
+                  </layout> 
+               </layoutDesc> 
+               <supportDesc>
+                  <foliation>
+                     <p>Beschreibung beider Blattnummeriungen
+                     <list>
+                        <li xml:id="foliationNiebergall">Niebergall</li>
+                        <li xml:id="foliationgraupner">Graupner</li>
+                     </list> 
+                     </p>
+                     <p xml:id="foliationConcention">[Angabe zur Blattnummerierung innerhalb der Edition]</p> 
+                  </foliation>
+               </supportDesc>
+            </physDesc> 
             <physLoc>
                <repository>
                   <identifier type="RISM" auth="D-Ds" >Universitäts und Landesbibliothek Darmstadt </identifier>  
                   <identifier auth="cote de la bibliothèque">Mus ms 429-28</identifier>
                   <identifier auth="RISM-ID">450005983</identifier>
                </repository>
-            </physLoc>
-            
+            </physLoc> 
             <langUsage>
                <language>Deutsch</language>
-            </langUsage>
-            
-         </manifestation>
-         
-         <manifestation type="textsource">
-      
+            </langUsage> 
+         </manifestation> 
+         <manifestation xml:id="manifestation_2" type="textsource">
             <titleStmt> <!-- issue #25 -->
                <title> Glaubige Sehnsucht nach seeligem Sterben
                   Geistliche Betrachtungen/welche nach gewissen in denen Fest- und Sontags
@@ -401,50 +387,45 @@
                   <date startdate="1689" enddate="1751"></date>
                </author>
             </titleStmt>
-            
-            
             <pubStmt>
                <publisher>Caspar Klug/ Fürstl. Hessis. Hof= und Cantzley=Buchdrucker.</publisher>
                <pubPlace>Darmstadt</pubPlace>
             </pubStmt>
-            
             <physDesc> 
-               
                <dimensions>
                   Oktavformat
                </dimensions>
-               
                <extent>
                   173 Seiten 
                </extent>
-               
                <typeDesc>
                   Gothischer Schriftsatz, mit Ausnahme von Wörtern aus dem lateinischen Sprachraum. Choraltexte und Texte, die nicht als Rezitativ gedacht sind, werden größer gedruckt.
                </typeDesc>
-
-               
                <layoutDesc> 
                   <layout type="fontsize"> 
                      <p>Die Quelle verwendet verschiedene Schriftgrößen, die auf verschiedene Funktionen innerhalb der Vertonung hinweisen:</p>
                      <p>Choralstrophen sind immer größer gedruckt, ebenso wie für Arien vorgesehene Verse. Die für Rezitative vorgesehenen Verse sind hingegen kleiner gestochen.</p>
                   </layout>
                </layoutDesc>
-            </physDesc>
-            
+            </physDesc> 
             <physLoc>
                <repository>
                   <corpName type="library">Theologische Bibliothek der Universität Marburg</corpName>
                   <identifier type="librarysignature">760 </identifier>
                </repository>
-            </physLoc>
-            
+            </physLoc> 
             <langUsage>
                <language>Deutsch</language>
-            </langUsage>
-            
+            </langUsage> 
          </manifestation>
       </manifestationList>
-      
+      <!--<revisionDesc>
+         <change>
+            <changeDesc>
+               <p></p>
+            </changeDesc>
+         </change>
+      </revisionDesc>-->
    </meiHead>
    <music>
       <facsimile> <!-- à voir si nous voulons le faire  -->
@@ -468,6 +449,9 @@
                      <rend xml:id="rhaspyy" valign="top">Johann Conrad Lichtenberg
                         (1689-1751)</rend>
                      <rend xml:id="r14hyotu" valign="top">GWV 1165/21</rend>
+                  </pgHead>
+                  <pgHead>
+                     
                   </pgHead>
                   <pgFoot xml:id="pnhojo3">
                      <rend xml:id="r1djv9mb" valign="bottom">57</rend>
@@ -1672,7 +1656,7 @@
                      <slur xml:id="say3gv4" startid="#nulxkz1" endid="#n1mcadqt" curvedir="above"/>
                      <slur xml:id="s2f0qz9" startid="#n1ez0z55" endid="#n1uvzhz7" curvedir="above"/>
                   </measure>
-                  <pb xml:id="p1wkzpej"/>
+                  <pb xml:id="p1wkzpjjkej" label="fol.2" corresp="#foliationNiebergall" facs="#page1MS"/> <!-- à mettre a jour -->
                   <measure xml:id="m18u0p4d" n="6">
                      <staff xml:id="s4a09h1" n="1">
                         <layer xml:id="l1d6vuc8" n="1">
