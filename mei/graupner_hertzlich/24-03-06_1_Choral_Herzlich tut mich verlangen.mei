@@ -15,7 +15,7 @@
             <edition>
                <title>Herzlich tut mich verlangen</title>
                <date xml:id="lastcodeupdate">28/03/2024</date>
-               <term xml:id="typeofedition">Wissenschaftlich-kritische Edition</term>
+               <term xml:id="typeofedition">Wissenschaftlich-kritische Edition</term> <!-- issue#14 -->
             </edition>
             <editor>
                <persName>Sophie Reiland-Mézil</persName>
@@ -208,7 +208,7 @@
       <workList>
          <work xml:id="dfnjs">
             <identifier type="Graupner-Werke-Verzeichnis-Nummer">1165/21</identifier> <!-- einfügen: URL -->
-            <title>Hertzlich thut mich verlangen</title>
+            <title>Herzlich tut mich verlangen</title> <!-- issue #34 -->
             
             <composer xml:id="dkjsekjds">
                <persName role="composer">Christoph Graupner</persName>
@@ -419,7 +419,7 @@
             </langUsage> 
          </manifestation>
       </manifestationList>
-      <!--<revisionDesc>
+      <!--<revisionDesc> Issue #35
          <change>
             <changeDesc>
                <p></p>
