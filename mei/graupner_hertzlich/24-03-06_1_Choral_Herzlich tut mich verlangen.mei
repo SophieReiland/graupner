@@ -60,7 +60,7 @@
           
             <segmentation> 
                
-               <p type="mouvements">
+               <p type="mouvements" corresp="http:meiii#facsimile_001">
                   Graupner verwendet keine Satzbezeichnungen im herkömmlichen Sinne. Er verwendet lediglich Text-Incipits, doppelte Taktstriche und macht Angaben zur musikalischen Form, wenn ein Instrument pausiert "Recitat: tacet"
                   <locus type="folio">Beispielsweise zu sehen auf Folio 10v</locus>
                   Die Sätze werden in dieser Edition in eckigen Klammern folgendermaßen angegeben:
@@ -435,7 +435,13 @@
             <graphic></graphic>
          </surface>
       </facsimile> 
+     
+      
       <body>
+         <mdiv  corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/24-02-14_1_Choral_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACMQYUQ6T2FVUYAW3BJLCORYZRBGLYQ"/>
+         
+         
+         
          <mdiv xml:id="m141dtcb">
             <score xml:id="s1ityzuo">
                <scoreDef xml:id="s1wqclyi" midi.bpm="58.000000">
