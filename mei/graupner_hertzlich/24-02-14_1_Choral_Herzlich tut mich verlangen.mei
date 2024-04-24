@@ -26,6 +26,18 @@
       </encodingDesc>
    </meiHead>
    <music>
+      <facsimile>
+         <surface xml:id="facsimile_001" ulx="0" uly="0"  >
+            <graphic corresp="https://tudigit.ulb.tu-darmstadt.de/image/Mus-Ms-429-28/1/0001.jpg" />
+            <zone xml:id="facsimile_001_zone1">
+              
+            </zone>
+         </surface>
+         <surface xml:id="facsimile_023" ulx="0" uly="0"  >
+            <graphic corresp="https://tudigit.ulb.tu-darmstadt.de/image/Mus-Ms-429-28/1/0023.jpg" />
+         </surface>
+         
+      </facsimile>
       <body>
          <mdiv xml:id="m141dtcb">
             <score xml:id="s1ityzuo">
@@ -47,6 +59,8 @@
                   <staffGrp xml:id="s1uyr83j">
                      <staffGrp xml:id="su6hmmc" bar.thru="true">
                         <grpSym xml:id="g43c46r" symbol="bracket"/>
+                        
+                        
                         <staffDef xml:id="P1" n="1" lines="5" ppq="8" trans.diat="-4"
                            trans.semi="-7">
                            <label xml:id="llbdp53">Cor en fa 1</label>
@@ -494,7 +508,7 @@
                         </layer>
                      </staff>
                      <staff xml:id="s123dbm5" n="3">
-                        <layer xml:id="l1tdgz9r" n="1">
+                        <layer xml:id="l1tdgz9r" n="1"> 
                            <note xml:id="n11pkyug" dur.ppq="16" dur="2" oct="5" pname="e"
                               stem.dir="down">
                               <accid xml:id="abcrr42" accid="f"/>
