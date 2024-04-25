@@ -2,29 +2,30 @@
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
-   <meiHead xml:id="m1ww44jd">
-      <fileDesc xml:id="fazxrr1">
-         <titleStmt xml:id="tzgcc7v">
+   <meiHead xml:id="mnfghsg">
+      <fileDesc xml:id="f15pvap9">
+         <titleStmt xml:id="tootpty">
             <title>Herzlich tut mich verlangen</title>
+            <title type="movement">Hilf, dass ich ja nicht wanke</title>
             <respStmt>
-               <persName role="composer">Christoph Graupner (1683-1760)</persName>
-               <persName role="lyricist">Johann Conrad Lichtenberg (1689-1751)</persName>
-               <persName role="arranger">Johann Conrad Lichtenberg (1689-1751)</persName>
+               <persName role="composer">Christoph Graupner</persName>
+               <persName role="lyricist">Johann Conrad Lichtenberg</persName> 
+               <persName role="editor">Sophie Reiland-Mézil</persName>
             </respStmt>
          </titleStmt>
-         <pubStmt xml:id="p8jb0g7">
+         <pubStmt xml:id="p100jw88">
             <date isodate="2024-02-14" type="encoding-date">2024-02-14</date>
          </pubStmt>
       </fileDesc>
-      <encodingDesc xml:id="eo3tlqq">
-         <appInfo xml:id="a16o0psz">
-            <application xml:id="a5o88mo" isodate="2024-02-14T19:53:13" version="4.1.0-c482e35">
-               <name xml:id="nw0yevq">Verovio</name>
-               <p xml:id="p1c126jo">Transcoded from MusicXML</p>
+      <encodingDesc xml:id="eippgzl">
+         <appInfo xml:id="a135uexs">
+            <application xml:id="afdgy7o" isodate="2024-02-14T19:49:24" version="4.1.0-c482e35">
+               <name xml:id="n1xubqvo">Verovio</name>
+               <p xml:id="p1ibcr28">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
-   </meiHead>
+</meiHead>
    <music>
       <body>
          <mdiv xml:id="m1s2bb89">

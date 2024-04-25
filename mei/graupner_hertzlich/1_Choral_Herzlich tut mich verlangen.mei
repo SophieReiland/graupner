@@ -6,10 +6,11 @@
       <fileDesc xml:id="f15pvap9">
          <titleStmt xml:id="tootpty">
             <title>Herzlich tut mich verlangen</title>
+            <title type="movement">Herzlich tut mich verlangen</title>
             <respStmt>
-               <persName role="composer">Christoph Graupner<date>1683-1760</date></persName>
+               <persName role="composer">Christoph Graupner</persName>
                <persName role="lyricist">Johann Conrad Lichtenberg</persName> 
-               <persName role="editor">Sophie Reiland</persName>
+               <persName role="editor">Sophie Reiland-Mézil</persName>
             </respStmt>
          </titleStmt>
          <pubStmt xml:id="p100jw88">
@@ -25,6 +26,7 @@
          </appInfo>
       </encodingDesc>
    </meiHead>
+   
    <music>
       <facsimile>
          <surface xml:id="facsimile_001" ulx="0" uly="0"  >
@@ -1258,7 +1260,7 @@
                      <slur xml:id="say3gv4" startid="#nulxkz1" endid="#n1mcadqt" curvedir="above"/>
                      <slur xml:id="s2f0qz9" startid="#n1ez0z55" endid="#n1uvzhz7" curvedir="above"/>
                   </measure>
-                  <pb xml:id="p1wkzpej"/>
+                  <pb xml:id="p1wkzpjjkej" label="fol.2" corresp="#foliationNiebergall" facs="#page1MS"/> <!-- à mettre a jour -->
                   <measure xml:id="m18u0p4d" n="6">
                      <staff xml:id="s4a09h1" n="1">
                         <layer xml:id="l1d6vuc8" n="1">

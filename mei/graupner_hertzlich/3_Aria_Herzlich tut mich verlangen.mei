@@ -2,25 +2,26 @@
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
-   <meiHead xml:id="m4vbe33">
-      <fileDesc xml:id="f1yenu0r">
-         <titleStmt xml:id="t1nyirkv">
+   <meiHead xml:id="mnfghsg">
+      <fileDesc xml:id="f15pvap9">
+         <titleStmt xml:id="tootpty">
             <title>Herzlich tut mich verlangen</title>
+            <title type="movement">Eilt nur fort</title>
             <respStmt>
-               <persName role="composer">Christoph Graupner (1683-1760)</persName>
-               <persName role="lyricist">Johann Conrad Lichtenberg (1689-1751)</persName>
-               <persName role="arranger">Johann Conrad Lichtenberg (1689-1751)</persName>
+               <persName role="composer">Christoph Graupner</persName>
+               <persName role="lyricist">Johann Conrad Lichtenberg</persName> 
+               <persName role="editor">Sophie Reiland-Mézil</persName>
             </respStmt>
          </titleStmt>
-         <pubStmt xml:id="plf9c8t">
+         <pubStmt xml:id="p100jw88">
             <date isodate="2024-02-14" type="encoding-date">2024-02-14</date>
          </pubStmt>
       </fileDesc>
-      <encodingDesc xml:id="e14zte5k">
-         <appInfo xml:id="a19ghm3z">
-            <application xml:id="a1uqm3cl" isodate="2024-02-14T19:50:28" version="4.1.0-c482e35">
-               <name xml:id="nlgfkiy">Verovio</name>
-               <p xml:id="pl280v5">Transcoded from MusicXML</p>
+      <encodingDesc xml:id="eippgzl">
+         <appInfo xml:id="a135uexs">
+            <application xml:id="afdgy7o" isodate="2024-02-14T19:49:24" version="4.1.0-c482e35">
+               <name xml:id="n1xubqvo">Verovio</name>
+               <p xml:id="p1ibcr28">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>

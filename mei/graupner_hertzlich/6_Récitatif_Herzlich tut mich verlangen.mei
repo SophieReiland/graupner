@@ -2,25 +2,26 @@
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
-   <meiHead xml:id="ml2pg5d">
-      <fileDesc xml:id="f11hg16b">
-         <titleStmt xml:id="t11lrjv7">
+   <meiHead xml:id="mnfghsg">
+      <fileDesc xml:id="f15pvap9">
+         <titleStmt xml:id="tootpty">
             <title>Herzlich tut mich verlangen</title>
+            <title type="movement">Dir, Jesu, will ich hier allein zu Ehren leben</title>
             <respStmt>
-               <persName role="composer">Christoph Graupner (1683-1760)</persName>
-               <persName role="lyricist">Johann Conrad Lichtenberg (1689-1751)</persName>
-               <persName role="arranger">Johann Conrad Lichtenberg (1689-1751)</persName>
+               <persName role="composer">Christoph Graupner</persName>
+               <persName role="lyricist">Johann Conrad Lichtenberg</persName> 
+               <persName role="editor">Sophie Reiland-Mézil</persName>
             </respStmt>
          </titleStmt>
-         <pubStmt xml:id="pmsif1q">
+         <pubStmt xml:id="p100jw88">
             <date isodate="2024-02-14" type="encoding-date">2024-02-14</date>
          </pubStmt>
       </fileDesc>
-      <encodingDesc xml:id="e1at46q6">
-         <appInfo xml:id="a6csr3g">
-            <application xml:id="a1yl1rlf" isodate="2024-02-14T19:52:43" version="4.1.0-c482e35">
-               <name xml:id="nm3d9w4">Verovio</name>
-               <p xml:id="p2suom6">Transcoded from MusicXML</p>
+      <encodingDesc xml:id="eippgzl">
+         <appInfo xml:id="a135uexs">
+            <application xml:id="afdgy7o" isodate="2024-02-14T19:49:24" version="4.1.0-c482e35">
+               <name xml:id="n1xubqvo">Verovio</name>
+               <p xml:id="p1ibcr28">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
