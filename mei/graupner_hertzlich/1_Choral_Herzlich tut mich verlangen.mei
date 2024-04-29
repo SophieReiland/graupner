@@ -2,22 +2,25 @@
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
-   <meiHead xml:id="mnfghsg">
-      <fileDesc xml:id="f15pvap9">
+   <meiHead xml:id="mnfghsg" >
+      <fileDesc xml:id="f15pvap9" >
          <titleStmt xml:id="tootpty">
             <title>Herzlich tut mich verlangen</title>
-            <title type="movement">Herzlich tut mich verlangen</title>
+            <title type="movement">Herzlich tut mich verlangen</title> <!-- nummerieren ? -->
             <respStmt>
-               <persName role="composer">Christoph Graupner </persName>
+               <persName role="composer">Christoph Graupner</persName>
                <persName role="lyricist">Johann Conrad Lichtenberg</persName> 
                <persName role="editor">Sophie Reiland-Mézil</persName>
             </respStmt>
          </titleStmt>
-         <pubStmt xml:id="p100jw88">
+         <editionStmt>
+            <edition corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/0_Mere_Herzlich%20tut%20mich%20verlangen.mei#editionHerzlich"></edition> <!-- Dateinamen prüfen -->
+         </editionStmt>
+         <pubStmt xml:id="p100jw88" corresp="#pubStmtHerzlich"> <!-- vervollständigen -->
             <date isodate="2024-02-14" type="encoding-date">2024-02-14</date>
          </pubStmt>
       </fileDesc>
-      <encodingDesc xml:id="eippgzl">
+      <encodingDesc xml:id="eippgzl" corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/0_Mere_Herzlich%20tut%20mich%20verlangen.mei#encodingDescHerzlich"> <!-- prüfen -->
          <appInfo xml:id="a135uexs">
             <application xml:id="afdgy7o" isodate="2024-02-14T19:49:24" version="4.1.0-c482e35">
                <name xml:id="n1xubqvo">Verovio</name>
@@ -25,6 +28,7 @@
             </application>
          </appInfo>
       </encodingDesc>
+      
    </meiHead>
    
    <music>

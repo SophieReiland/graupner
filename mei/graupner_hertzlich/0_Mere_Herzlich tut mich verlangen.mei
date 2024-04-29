@@ -11,8 +11,8 @@
                <persName role="lyricist">Johann Conrad Lichtenberg</persName>
             </respStmt>
          </titleStmt>
-         <editionStmt xml:id="sjnfklxbeh">
-            <edition>
+         <editionStmt xml:id="editionStmtHerzlich">
+            <edition xml:id="editionHerzlich">
                <title>Herzlich tut mich verlangen</title>
                <date xml:id="lastcodeupdate">25/04/2024</date>
                <term xml:id="typeofedition">Wissenschaftlich-kritische Edition</term> 
@@ -21,7 +21,7 @@
                <persName>Sophie Reiland-Mézil</persName>
             </editor>
          </editionStmt>
-         <pubStmt xml:id="p100jw88">
+         <pubStmt xml:id="pubStmtHerzlich" >
             <date xml:id="publish-date" isodate="2024-04">April 2024</date> <!-- mettre à jour si besoin -->
             <publisher xml:id="fdshsfdioa">IReMus</publisher>
             <address xml:id="ldhesf">
@@ -32,8 +32,8 @@
             </address>
          </pubStmt>
          <sourceDesc xml:id="sjfgadk"> <!-- issue #28 -->
-            <source xml:id="source_A" corresp="#manifestation_1"></source>
-            <source xml:id="source_B" corresp="#manifestation_1"></source>
+            <source xml:id="source_A" corresp="#manifestation_1_sourceA"></source>
+            <source xml:id="source_B" corresp="#manifestation_1_sourceB"></source>
             <source xml:id="source_C" corresp="#manifestation_2"></source>
             
             <source> <!-- ergänzen: URL falls Veröffentlichung -->
@@ -49,7 +49,7 @@
             </source>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc xml:id="eippgzl">
+      <encodingDesc xml:id="encodingDescHerzlich">
          <appInfo xml:id="a135uexs">
             <application xml:id="afdgy7o" isodate="2024-02-14T19:49:24" version="4.1.0-c482e35">
                <name xml:id="n1xubqvo">Verovio</name>
@@ -259,7 +259,7 @@
          </work>
       </workList>
       <manifestationList> 
-         <manifestation xml:id="manifestation_1" type="musicalsource"> <!-- vielleicht eher mit label arbeiten als mit xml:id? Oder: label=sourceA. Oder geht das mit dem corresp in Source auf? -->
+         <manifestation xml:id="manifestation_1" type="musicalsource"> 
             <titleStmt>
                <title>Hertzlich thut mich verlangen</title>
                <composer>Christoph Graupner
@@ -339,10 +339,10 @@
                   </layout>
                   <layout type="manuscriptStructure">
                      <locusGrp>
-                     <locus>
+                        <locus xml:id="manifestation_1_sourceB">
                         Partitur Fol. 1r-7v 
                      </locus>
-                     <locus>
+                        <locus xml:id="manifestation_1_sourceA">
                         Instrumental- und Vokalstimmen Fol. 8r-28v 
                      </locus>
                      </locusGrp>
@@ -428,23 +428,29 @@
       </revisionDesc>-->
    </meiHead>
    <music>
-      <facsimile> <!-- à voir si nous voulons le faire  -->
-         
+      <facsimile xml:id="facsManifest1_sourceA_StimmeX"> <!-- à voir si nous voulons le faire  -->
+       
+        
          <surface xml:id="stamp">
+  
+        
            
-            <graphic></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/image/Mus-Ms-429-28/1/0024.jpg" ></graphic>
          </surface>
-      </facsimile> 
+      </facsimile>
+      <facsimile xml:id="facs_Manifest1_sourceB">
+         
+      </facsimile>
      
       
       <body>
-         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/1_Choral_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC2YXL5LGGQFUWMUZWUZRJ7EIQ" xml:id="ChoralHerzlich"></mdiv>
-         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/2_Coro_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC3SOP6ETBRAZE4T7ACZRJ7GAQ" xml:id="Coro_Herzlich"></mdiv>
-         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/3_Aria_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC2LJKXSNYHHYON4F6QZRJ7JWQ" xml:id="3Aria_Herzlich"></mdiv>
-         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/4_R%C3%A9citatif_Herzlich%20tut%20mich%20verlangen%20(1).mei?token=GHSAT0AAAAAACN66IC355BHCWLXVZZH6E6SZRJ7LGQ" xml:id="behaltedeinelustbarkeiten"></mdiv>
-         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/5_Aria_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC3AVHWN5BUXFPCTRCSZRJ7MTA" xml:id="zerreissdeseitlenlebensbande"></mdiv>
-         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/6_R%C3%A9citatif_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC2R3PMTQHSPVGKMTGSZRJ7NPA" xml:id="dirjesu"></mdiv>
-         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/7_Choral_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC2BSK5E3DSX5JLPVJ2ZRJ7OHA" xml:id="hilfdassichjanichtwanke"></mdiv>
+         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/1_Choral_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC2YXL5LGGQFUWMUZWUZRJ7EIQ" xml:id="Choral_Herzlich_01"></mdiv>
+         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/2_Coro_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC3SOP6ETBRAZE4T7ACZRJ7GAQ" xml:id="Coro_Herzlich_02"></mdiv>
+         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/3_Aria_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC2LJKXSNYHHYON4F6QZRJ7JWQ" xml:id="Aria_Herzlich_03"></mdiv>
+         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/4_Rezitativ_Herzlich%20tut%20mich%20verlangen%20(1).mei?token=GHSAT0AAAAAACN66IC355BHCWLXVZZH6E6SZRJ7LGQ" xml:id="Rezitativ_Herzlich_04"></mdiv>
+         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/5_Aria_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC3AVHWN5BUXFPCTRCSZRJ7MTA" xml:id="Aria_Herzlich_05"></mdiv>
+         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/6_Rezitativ_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC2R3PMTQHSPVGKMTGSZRJ7NPA" xml:id="Rezitativ_Herzlich_06"></mdiv>
+         <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/7_Choral_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC2BSK5E3DSX5JLPVJ2ZRJ7OHA" xml:id="Choral_Herzlich_07"></mdiv>
       </body>
       <back>
          <div>
@@ -456,5 +462,4 @@
          </div>
       </back>
    </music>
-
 </mei>
