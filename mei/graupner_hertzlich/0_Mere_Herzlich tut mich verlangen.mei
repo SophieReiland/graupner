@@ -209,16 +209,16 @@
       </encodingDesc>
       <workList>
          <work xml:id="dfnjs">
-            <identifier type="Graupner-Werke-Verzeichnis-Nummer">1165/21</identifier> <!-- einfügen: URL --> 
+            <identifier type="Graupner-Werke-Verzeichnis-Nummer">1165/21</identifier> <!-- issue #24 --> 
             <title>Herzlich tut mich verlangen</title> <!-- issue #34 -->
             
             <composer xml:id="dkjsekjds">
-               <persName role="composer">Christoph Graupner</persName>
+               <persName role="composer" corresp="#graupnerC">Christoph Graupner</persName>
                <date startdate="1683" enddate="1760"/>
             </composer>
             
             <lyricist xml:id="sd03xkj">
-               <persName role="lyricist">Johann Conrad Lichtenberg</persName>
+               <persName role="lyricist" corresp="#lichtenbergJC">Johann Conrad Lichtenberg</persName>
                <date startdate="1689" enddate="1751"/>
             </lyricist>
             
@@ -232,12 +232,12 @@
                <date type="dateoffirstperformance">23. November 1721, 24. Sonntag nach Trinitatis</date>
                <geogName type="placeoffirstperformance">Schlosskapelle zu Darmstadt</geogName>
                <region type="fuerstentum">Landgrafschaft Hessen-Darmstadt</region>
-               <periodName>Baroque</periodName>
+               <periodName>Barock</periodName>
                <name role="musicalensemble">Hofkapelle zu Darmstadt</name>
-               <persName role="musicaldirector">Christoph Graupner</persName>
+               <persName role="musicaldirector" corresp="#graupnerC">Christoph Graupner</persName>
             </creation>
             
-            <perfMedium> <!-- issue #26 -->
+            <perfMedium> 
                <perfResList type="instrumentation">
                   <perfRes>Horn in F 1</perfRes>
                   <perfRes>Horn in F 2</perfRes>
@@ -261,13 +261,13 @@
          </work>
       </workList>
       <manifestationList> 
-         <manifestation xml:id="manifestation_1" type="musicalsource"> 
+         <manifestation xml:id="manifestation_1" type="musicalsource"> <!-- issue #39 -->
             <titleStmt>
                <title>Hertzlich thut mich verlangen</title>
                <composer>Christoph Graupner
                   <date startdate="1683" enddate="1760"></date>
                </composer>
-               <contributor role="copist">Kopist 1 <!-- ergänzen und überarbeiten! -->
+               <contributor role="copist">Kopist 1 <!-- ergänzen und überarbeiten! Liste einfügen oder auf ein Facsimile verweisen? -->
                   <annot>Beim Vergleich der Handschrift unten in der Canto-2-Stimme mit den anderen Instrumental- und Vokalstimmen liegt der Verdacht nahe, dass es sich um einen Kopisten handelt.</annot>
                   <locus>Fol. 23r</locus>
                </contributor>
@@ -311,11 +311,11 @@
                <scriptDesc>Kurrentschrift; Wörter aus dem lateinischen Sprachraum in lateinischer Schrift
                   <dedicatee>
                      I.N.J. [In nomine Jesu]
-                     <locus type="Niebergallfoliotation">Fol. 1r</locus>
+                     <locus corresp="#foliationNiebergall">Fol. 1r</locus>
                   </dedicatee>
                   <dedicatee>
                      Soli Deo Gloria
-                     <locus type="Niebergallfoliotation">Fol. 7v</locus>
+                     <locus corresp="#foliationNiebergall">Fol. 7v</locus>
                   </dedicatee>
                   <date isodate="1721" type="compositionDate">
                      M. N. 1721 [Mitte November 1721?]
@@ -323,10 +323,10 @@
                </scriptDesc> 
                <condition type="conditionOfInk">
                   Einige Folia stärker beschädigt durch Tintenkorrosion, jedoch noch lesbar
-                  <locus type="Niebergallfoliotation">Fol.1r, 3v, 4r, 6v-7v, 8r, 10r-11r, 12r-13r, 16r-17r</locus> 
+                  <locus corresp="#foliationNiebergall">Fol.1r, 3v, 4r, 6v-7v, 8r, 10r-11r, 12r-13r, 16r-17r</locus> 
                </condition> 
                <condition type="generalCondition">
-                  Generell gute Lesbarkeit der Quelle, kaum Korrekturen in der Partitur und den Instrumentalstimmen.
+                  Generell gute Lesbarkeit der Quelle, kaum Korrekturen in der Partitur und den Instrumentalstimmen. Es handelt sich wahrscheinlich um eine Reinschrift.
                </condition> 
                <stamp facs="#stamp"> 
                   <locus>Titelseite, Fol. 1r, 8r, 9v, 10r, 13v, 14v, 15v, 16r, 18v, 19r, 20r, 22v, 23r, 24r, 26r, 27r, 28v</locus>
@@ -385,7 +385,7 @@
                      <num type="pagenumbers">Seite 171-173</num>
                   </titlePart>
                </title>
-               <author> Johann Conrad Lichtenberg 
+               <author corresp="#lichtenbergJC"> Johann Conrad Lichtenberg 
                   <date startdate="1689" enddate="1751"></date>
                </author>
             </titleStmt>
@@ -454,14 +454,7 @@
          <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/6_Rezitativ_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC2R3PMTQHSPVGKMTGSZRJ7NPA" xml:id="Rezitativ_Herzlich_06"></mdiv>
          <mdiv corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/7_Choral_Herzlich%20tut%20mich%20verlangen.mei?token=GHSAT0AAAAAACN66IC2BSK5E3DSX5JLPVJ2ZRJ7OHA" xml:id="Choral_Herzlich_07"></mdiv>
       </body>
-      <back>
-         <div>
-            <list>
-               <li>
-                  <periodName xml:id="graupnerc">Graupnner</periodName>
-               </li>
-            </list>
-         </div>
+      <back> <!-- issue #36 -->
       </back>
    </music>
 </mei>
