@@ -61,7 +61,7 @@
           
             <segmentation> 
                
-               <p type="mouvements" corresp="http:meiii#facsimile_001">
+               <p type="movements" corresp="#FacsViolino1Part">
                   Graupner verwendet keine Satzbezeichnungen im herkömmlichen Sinne, lediglich Text-Incipits und doppelte Taktstriche Er macht darüber hinaus Angaben zur musikalischen Form, wenn ein Instrument pausiert: "Recitat: tacet"
                   <locus type="folio">Beispielsweise zu sehen auf Folio 10v</locus> <!-- issue #37 -->
                   Die Sätze werden in dieser Edition in eckigen Klammern folgendermaßen angegeben:
@@ -122,7 +122,7 @@
                   Die von Graupner in den einzelnen Stimmen verwendeten Instrumenten- und Stimmbezeichnungen wurden den aktuellen Konventionen angepasst:
                   <table>
                      <tr>
-                        <th>Bezeichnungen von Graupner</th>
+                        <th facs="#facsManifest1_sourceA_StimmeX">Bezeichnungen von Graupner</th>
                         <td>Corn de Chaße/Corn: de selu I, 2</td>
                         <td>Flauto, Flauto 2</td>
                         <td>Hautbois I, 2</td>
@@ -269,7 +269,7 @@
                </composer>
                <contributor role="copist">Kopist 1 <!-- ergänzen und überarbeiten! Liste einfügen oder auf ein Facsimile verweisen? -->
                   <annot>Beim Vergleich der Handschrift unten in der Canto-2-Stimme mit den anderen Instrumental- und Vokalstimmen liegt der Verdacht nahe, dass es sich um einen Kopisten handelt.</annot>
-                  <locus>Fol. 23r</locus>
+                  <locus>Fol. 23r</locus> <!-- issue #42 -->
                </contributor>
                <contributor role="copist">Kopist 2
                   <annot>Beim Vergleich der Handschrift in der Canto-[bis]-Stimme mit den anderen Instrumental- und Vokalstimmen liegt der Verdacht nahe, dass es sich um einen Kopisten handelt.</annot>
@@ -328,7 +328,7 @@
                <condition type="generalCondition">
                   Generell gute Lesbarkeit der Quelle, kaum Korrekturen in der Partitur und den Instrumentalstimmen. Es handelt sich wahrscheinlich um eine Reinschrift.
                </condition> 
-               <stamp facs="#stamp"> 
+               <stamp> 
                   <locus>Titelseite, Fol. 1r, 8r, 9v, 10r, 13v, 14v, 15v, 16r, 18v, 19r, 20r, 22v, 23r, 24r, 26r, 27r, 28v</locus>
                   <address>
                      <addrLine>Grossherzoglich</addrLine>
@@ -430,18 +430,87 @@
       </revisionDesc>-->
    </meiHead>
    <music>
-      <facsimile xml:id="facsManifest1_sourceA_StimmeX"> <!-- à voir si nous voulons le faire  -->
-       
-        
-         <surface xml:id="stamp">
-  
-        
-           
-            <graphic target="https://tudigit.ulb.tu-darmstadt.de/image/Mus-Ms-429-28/1/0024.jpg" ></graphic>
+      <facsimile xml:id="facsManifest1_sourceA_StimmeX"> <!-- à voir si nous voulons le faire  -->     
+         <surface xml:id="FacsContinuoPart"> <!-- issue # 41 -->
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/17" ></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/18"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/19"></graphic>
+         </surface>
+         <surface xml:id="FacsViolino1Part">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/20"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/21"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/22"></graphic>
+         </surface>
+         <surface xml:id="FacsViolino2Part">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/23"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/24"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/25"></graphic>
+         </surface>
+         <surface xml:id="FacsViolaPart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/27"></graphic>
+         </surface>
+         <surface xml:id="FacsViolonePart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/29"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/30"></graphic>
+         </surface>
+         <surface xml:id="FacsHautboisIPart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/31"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/32"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/33"></graphic>
+         </surface>
+         <surface xml:id="FacsHautboisIIPart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/34"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/35"></graphic>
+         </surface>
+         <surface xml:id="FacsCornDeChaßeIPart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/36"></graphic>
+         </surface>
+         <surface xml:id="FacsCorndeChaße2Part">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/37"></graphic>
+         </surface>
+         <surface xml:id="FacsCantoIPart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/38"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/39"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/40"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/41"></graphic>
+         </surface>
+         <surface xml:id="FacsCanto2Part">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/42"></graphic>
+         </surface>
+         <surface xml:id="FacsCantoPartCopiste1">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/43"></graphic>
+         </surface>
+         <surface xml:id="FacsAltoPart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/44"></graphic>
+         </surface>
+         <surface xml:id="FacsAlto2PartCopiste2">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/46"></graphic>
+         </surface>
+         <surface xml:id="FacsTenorePart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/47"></graphic>
+         </surface>
+         <surface xml:id="FacsBaßoPart">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/48"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/49"></graphic>
          </surface>
       </facsimile>
       <facsimile xml:id="facs_Manifest1_sourceB">
-         
+         <surface> <!-- Quel XML:ID ici ? -->
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/2"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/3"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/4"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/5"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/6"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/7"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/8"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/9"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/10"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/11"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/12"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/13"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/14"></graphic>
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/15"></graphic>
+         </surface>
       </facsimile>
      
       
