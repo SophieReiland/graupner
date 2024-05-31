@@ -17,7 +17,7 @@
                <date xml:id="lastcodeupdate">10/05/2024</date>
                <term xml:id="typeofedition">Wissenschaftlich-kritische Edition</term> 
             </edition>
-            <editor>
+            <editor xml:id="editorReiland">
                <persName>Sophie Reiland-Mézil</persName>
             </editor>
          </editionStmt>
@@ -32,7 +32,11 @@
             </address>
          </pubStmt>
          <sourceDesc xml:id="sjfgadk"> <!-- issue #28 -->
-            <source xml:id="source_A" corresp="#manifestation_1_sourceA"></source>
+            <source xml:id="source_A" corresp="#manifestation_1_sourceA"> 
+              <locusGrp>
+                 <locus></locus>
+              </locusGrp>
+            </source>
             <source xml:id="source_B" corresp="#manifestation_1_sourceB"></source>
             <source xml:id="source_C" corresp="#manifestation_2"></source>
             
@@ -372,6 +376,11 @@
             <langUsage>
                <language>Deutsch</language>
             </langUsage> 
+           
+            <contents>
+              
+              
+            </contents>
          </manifestation> 
          <manifestation xml:id="manifestation_2" type="textsource">
             <titleStmt> <!-- issue #25 -->
@@ -495,6 +504,7 @@
          </surface>
       </facsimile>
       <facsimile xml:id="facs_Manifest1_sourceB">
+ 
          <surface> <!-- Quel XML:ID ici ? -->
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/2"></graphic>
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/3"></graphic>

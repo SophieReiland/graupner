@@ -33,12 +33,20 @@
    
    <music>
       <facsimile>
+         
          <surface xml:id="facsimile_001" ulx="0" uly="0"  >
             <graphic corresp="https://tudigit.ulb.tu-darmstadt.de/image/Mus-Ms-429-28/1/0001.jpg" />
             <zone xml:id="facsimile_001_zone1">
               
             </zone>
          </surface>
+         
+         
+         
+         <surface xml:id="facsimile_018" ulx="0" uly="0"  >
+            <graphic corresp="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/18" /> 
+         </surface>
+         
          <surface xml:id="facsimile_023" ulx="0" uly="0"  >
             <graphic corresp="https://tudigit.ulb.tu-darmstadt.de/image/Mus-Ms-429-28/1/0023.jpg" />
          </surface>
@@ -266,7 +274,7 @@
                   </staffGrp>
                </scoreDef>
                <section xml:id="s19gz06d">
-                  <pb xml:id="p1b8q4c0"/>
+                  <pb xml:id="p1b8q4c0" />
                   <measure xml:id="mtzir0z" right="invis" n="0">
                      <mNum xml:id="m1ddl5n0"/>
                      <staff xml:id="shn5wbt" n="1">
@@ -993,7 +1001,8 @@
                      <staff xml:id="sqf1nez" n="10">
                         <layer xml:id="l11hkacl" n="1">
                            <rest xml:id="rdcd1qm" dur.ppq="16" dur="2"/>
-                           <beam xml:id="bu4mi26">
+                           <pb type=""></pb>
+                           <beam xml:id="bu4mi26"> 
                               <note xml:id="n1xeoy8x" dots="1" dur.ppq="6" dur="8" oct="4" pname="a"
                                  stem.dir="down"/>
                               <note xml:id="nurl1ki" dur.ppq="2" dur="16" oct="4" pname="a"
