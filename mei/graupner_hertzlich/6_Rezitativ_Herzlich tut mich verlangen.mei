@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE doc [
+<!ENTITY parentScore SYSTEM "0_Mere_Herzlich tut mich verlangen.mei">
+]>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead xml:id="mnfghsg">
       <fileDesc xml:id="f15pvap9">
@@ -27,6 +30,45 @@
       </encodingDesc>
    </meiHead>
    <music>
+      <facsimile>
+         
+         <surface type="score" xml:id="facsimile_011">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/11"></graphic>
+         </surface>
+         
+         <surface type="score" xml:id="facsimile_012">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/12"></graphic>
+         </surface>
+         
+         <surface type="score" xml:id="facsimile_013">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/13"></graphic>
+         </surface>
+         
+         <surface type="score" xml:id="facsimile_014">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/14"></graphic>
+         </surface>
+         
+         <surface type="score" xml:id="facsimile_015">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/15"></graphic>
+         </surface>
+         
+         <surface type="continuoPart" xml:id="facsimile_019">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/19" /> 
+         </surface>
+         
+         <surface type="violonePart" xml:id="facsimile_030">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/30"></graphic>
+         </surface>
+         
+         <surface type="cantoIPart" xml:id="facsimile_40">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/40"></graphic>
+         </surface>
+         
+         <surface type="cantoIPart" xml:id="facsimile_41">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/41"></graphic>
+         </surface>
+         
+      </facsimile>
       <body>
          <mdiv xml:id="mmxy28u">
             <score xml:id="s13su9ij">

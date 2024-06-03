@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE doc [
+<!ENTITY parentScore SYSTEM "0_Mere_Herzlich tut mich verlangen.mei">
+]>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead xml:id="mnfghsg" >
       <fileDesc xml:id="f15pvap9" >
@@ -14,7 +17,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/0_Mere_Herzlich%20tut%20mich%20verlangen.mei#editionHerzlich"></edition> <!-- Dateinamen prüfen -->
+            <edition corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/0_Mere_Herzlich%20tut%20mich%20verlangen.mei#editionHerzlich"></edition> <!-- Das klappt so nicht, oder? #45-->
          </editionStmt>
          <pubStmt xml:id="p100jw88" corresp="#pubStmtHerzlich"> <!-- vervollständigen -->
             <date isodate="2024-02-14" type="encoding-date">2024-02-14</date>
@@ -34,23 +37,75 @@
    <music>
       <facsimile>
          
-         <surface xml:id="facsimile_001" ulx="0" uly="0"  >
-            <graphic corresp="https://tudigit.ulb.tu-darmstadt.de/image/Mus-Ms-429-28/1/0001.jpg" />
+         <surface type="score" xml:id="facsimile_002">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/2" />
             <zone xml:id="facsimile_001_zone1">
-              
             </zone>
          </surface>
          
-         
-         
-         <surface xml:id="facsimile_018" ulx="0" uly="0"  >
-            <graphic corresp="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/18" /> 
+         <surface type="score" xml:id="facsimile_003">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/3"></graphic>
          </surface>
          
-         <surface xml:id="facsimile_023" ulx="0" uly="0"  >
-            <graphic corresp="https://tudigit.ulb.tu-darmstadt.de/image/Mus-Ms-429-28/1/0023.jpg" />
+         <surface type="score" xml:id="facsimile_004">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/4"></graphic>
          </surface>
          
+         <surface type="continuoPart" xml:id="facsimile_017">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/18" /> 
+         </surface>
+         
+         <surface type="violinViolettIPart" xml:id="facsimile_020">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/20"></graphic>
+         </surface>
+         
+         <surface type="violinViolettIIPart" xml:id="facsimile_023">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/23" />
+         </surface>
+         
+         <surface type="violaPart" xml:id="facsimile_027">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/27"></graphic>
+         </surface>
+         
+         <surface type="violonePart" xml:id="facsimile_029">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/29"></graphic>
+         </surface>
+         
+         <surface type="oboeFluteIPart" xml:id="facsimile_031">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/31"></graphic>
+         </surface>
+         
+         <surface type="oboeFluteIIPart" xml:id="facsimile_034">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/34"></graphic>
+         </surface>
+         
+         <surface type="hornInFIPart" xml:id="facsimile_036">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/36"></graphic>
+         </surface>
+         
+         <surface type="hornInFIIPart" xml:id="facsimile_037">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/37"></graphic>
+         </surface>
+         
+         <surface type="cantoIPart" xml:id="facsimile_038">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/38"></graphic>
+         </surface>
+         
+         <surface type="cantoIIPart" xml:id="facsimile_042">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/42"></graphic>
+         </surface>
+         
+         <surface type="altoPart" xml:id="facsimile_044">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/44"></graphic>
+         </surface>
+         
+         <surface type="tenorPart" xml:id="facsimile_047">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/47"></graphic>
+         </surface>
+         
+         <surface type="bassPart" xml:id="facsimile_048">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/48"></graphic>
+         </surface>
       </facsimile>
       <body>
          <mdiv xml:id="m141dtcb">
@@ -1001,7 +1056,7 @@
                      <staff xml:id="sqf1nez" n="10">
                         <layer xml:id="l11hkacl" n="1">
                            <rest xml:id="rdcd1qm" dur.ppq="16" dur="2"/>
-                           <pb type=""></pb>
+                           
                            <beam xml:id="bu4mi26"> 
                               <note xml:id="n1xeoy8x" dots="1" dur.ppq="6" dur="8" oct="4" pname="a"
                                  stem.dir="down"/>
@@ -1273,7 +1328,6 @@
                      <slur xml:id="say3gv4" startid="#nulxkz1" endid="#n1mcadqt" curvedir="above"/>
                      <slur xml:id="s2f0qz9" startid="#n1ez0z55" endid="#n1uvzhz7" curvedir="above"/>
                   </measure>
-                  <pb xml:id="p1wkzpjjkej" label="fol.2" corresp="#foliationNiebergall" facs="#page1MS"/> <!-- à mettre a jour -->
                   <measure xml:id="m18u0p4d" n="6">
                      <staff xml:id="s4a09h1" n="1">
                         <layer xml:id="l1d6vuc8" n="1">

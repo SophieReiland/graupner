@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE doc [
+<!ENTITY parentScore SYSTEM "0_Mere_Herzlich tut mich verlangen.mei">
+]>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead xml:id="mnfghsg">
       <fileDesc xml:id="f15pvap9">
@@ -27,6 +30,30 @@
       </encodingDesc>
    </meiHead>
    <music>
+      <facsimile>
+         
+         <surface type="score" xml:id="facsimile_010">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/10"></graphic>
+         </surface>
+         
+         <surface type="continuoPart" xml:id="facsimile_018">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/18"></graphic>
+         </surface>
+         
+         <surface type="continuoPart" xml:id="facsimile_030">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/30"></graphic>
+         </surface>
+         
+         <surface type="cantoIPart" xml:id="facsimile_038">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/38"></graphic>
+         </surface>
+         
+         <surface type="cantoIPart" xml:id="facsimile_039">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/39"></graphic>
+         </surface>
+         
+      </facsimile>
+      
       <body>
          <mdiv xml:id="meqckqf">
             <score xml:id="s7nhdhg">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE doc [
+<!ENTITY parentScore SYSTEM "0_Mere_Herzlich tut mich verlangen.mei">
+]>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead xml:id="mnfghsg">
       <fileDesc xml:id="f15pvap9">
@@ -27,6 +30,80 @@
       </encodingDesc>
    </meiHead>
    <music>
+      <facsimile>
+         
+         <surface type="score" xml:id="facsimile_004">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/4"></graphic>
+         </surface>
+         
+         <surface type="score" xml:id="facsimile_005">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/5"></graphic>
+         </surface>
+         
+         <surface type="score" xml:id="facsimile_006">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/6"></graphic>
+         </surface>
+         
+         <surface type="score" xml:id="facsimile_007">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/7"></graphic>
+         </surface>
+         
+         <surface type="continuoPart" xml:id="facsimile_017">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/18" /> 
+         </surface>
+         
+         <surface type="violinViolettIPart" xml:id="facsimile_020">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/20"></graphic>
+         </surface>
+         
+         <surface type="violinViolettIIPart" xml:id="facsimile_023">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/23" />
+         </surface>
+         
+         <surface type="violaPart" xml:id="facsimile_027">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/27"></graphic>
+         </surface>
+         
+         <surface type="violonePart" xml:id="facsimile_029">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/29"></graphic>
+         </surface>
+         
+         <surface type="oboeFluteIPart" xml:id="facsimile_031">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/31"></graphic>
+         </surface>
+         
+         <surface type="oboeFluteIIPart" xml:id="facsimile_034">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/34"></graphic>
+         </surface>
+         
+         <surface type="hornInFIPart" xml:id="facsimile_036">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/36"></graphic>
+         </surface>
+         
+         <surface type="hornInFIIPart" xml:id="facsimile_037">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/37"></graphic>
+         </surface>
+         
+         <surface type="cantoIPart" xml:id="facsimile_038">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/38"></graphic>
+         </surface>
+         
+         <surface type="cantoIIPart" xml:id="facsimile_042">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/42"></graphic>
+         </surface>
+         
+         <surface type="altoPart" xml:id="facsimile_044">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/44"></graphic>
+         </surface>
+         
+         <surface type="tenorPart" xml:id="facsimile_047">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/47"></graphic>
+         </surface>
+         
+         <surface type="bassPart" xml:id="facsimile_048">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/48"></graphic>
+         </surface>
+      </facsimile>
       <body>
          <mdiv xml:id="meil7un">
             <score xml:id="st4q3i4">

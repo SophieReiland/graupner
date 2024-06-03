@@ -30,6 +30,85 @@
       </encodingDesc>
    </meiHead>
    <music>
+      <facsimile>
+         
+         <surface type="score" xml:id="facsimile_007">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/7" />
+         </surface>
+         
+         <surface type="score" xml:id="facsimile_008">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/8"></graphic>
+         </surface>
+         
+         <surface type="score" xml:id="facsimile_009">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/9"></graphic>
+         </surface>
+         
+         <surface type="score" xml:id="facsimile_010">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/10"></graphic>
+         </surface>
+         
+         <surface type="continuoPart" xml:id="facsimile_017">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/17" /> 
+         </surface>
+         
+         <surface type="continuoPart" xml:id="facsimile_018">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/18" /> 
+         </surface>
+         
+         <surface type="violinViolettIPart" xml:id="facsimile_020">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/20"></graphic>
+         </surface>
+         
+         <surface type="violinViolettIPart" xml:id="facsimile_021">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/21"></graphic>
+         </surface>
+         
+         <surface type="violinViolettIIPart" xml:id="facsimile_023">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/23" />
+         </surface>
+         
+         <surface type="violinViolettIIPart" xml:id="facsimile_024">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/24" />
+         </surface>
+         
+         <surface type="violaPart" xml:id="facsimile_027">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/27"></graphic>
+         </surface>
+         
+         <surface type="violonePart" xml:id="facsimile_029">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/29"></graphic>
+         </surface>
+         
+         <surface type="violonePart" xml:id="facsimile_030">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/30"></graphic>
+         </surface>
+         
+         <surface type="oboeFluteIPart" xml:id="facsimile_031">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/31"></graphic>
+         </surface>
+         
+         <surface type="oboeFluteIPart" xml:id="facsimile_032">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/32"></graphic>
+         </surface>
+         
+         <surface type="oboeFluteIIPart" xml:id="facsimile_034">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/34"></graphic>
+         </surface>
+         
+         <surface type="oboeFluteIIPart" xml:id="facsimile_035">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/35"></graphic>
+         </surface>
+                  
+         <surface type="bassPart" xml:id="facsimile_048">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/48"></graphic>
+         </surface>
+         
+         <surface type="bassPart" xml:id="facsimile_049">
+            <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/49"></graphic>
+         </surface>
+         
+      </facsimile>
       <body>
          <mdiv xml:id="m11vdobd">
             <score xml:id="s1avjes7">
