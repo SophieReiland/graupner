@@ -764,6 +764,7 @@
                      </staff>
                      <staff xml:id="s1d4jqjl" n="19">
                         <layer xml:id="lokcgh9" n="1">
+                           <pb facs="#facsimile_005" type="sourcePB" corresp="parentScore#manifestation_1_sourceB"></pb>
                            <note xml:id="n1pkhc07" dur.ppq="4" dur="4" oct="3" pname="g" stem.dir="down">
                               <accid xml:id="akfjm87" accid="s" />
                               <verse xml:id="v1chigh9" label="section" n="12">
@@ -3475,6 +3476,7 @@
                      </staff>
                      <staff xml:id="s7ydpt0" n="20">
                         <layer xml:id="laj7rfh" n="1">
+                           <pb facs="#facsimile_006" type="sourcePB" corresp="parentScore#manifestation_1_sourceB"></pb>
                            <rest xml:id="r1bobek4" dur.ppq="2" dur="8" />
                            <beam xml:id="b1xenudh">
                               <note xml:id="nw47mk6" dur.ppq="2" dur="8" oct="3" pname="d" stem.dir="down" />
@@ -5822,6 +5824,7 @@
                      </staff>
                      <staff xml:id="s1spbgf9" n="20">
                         <layer xml:id="l13w94oi" n="1">
+                           <pb facs="facsimile_007" type="sourcePB" corresp="parentScore#manifestation_1_sourceB"></pb>
                            <note xml:id="n1jmrwd7" dur.ppq="4" dur="4" oct="3" pname="f" stem.dir="down" />
                            <rest xml:id="r13wk1h2" dur.ppq="4" dur="4" />
                            <note xml:id="n5vn71m" dur.ppq="4" dur="4" oct="3" pname="f" stem.dir="down" />

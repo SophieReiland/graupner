@@ -3791,6 +3791,7 @@
                      </staff>
                      <staff xml:id="s1msdtsm" n="20">
                         <layer xml:id="l13hl5f8" n="1">
+                           <pb facs="#facsimile_003" type="sourcePB" corresp="parentScore#manifestation_1_sourceB"></pb> <!-- bon endroit ? -->
                            <note xml:id="n125kcxc" dur.ppq="4" dur="4" oct="3" pname="d"
                               stem.dir="down"/>
                            <rest xml:id="r3xhvg0" dur.ppq="2" dur="8"/>
@@ -6564,6 +6565,7 @@
                      </staff>
                      <staff xml:id="s5fd29w" n="20">
                         <layer xml:id="ldjk6kz" n="1">
+                           <pb facs="#facsimile_004" type="sourcePB" corresp="parentScore#manifestation_1_sourceB"></pb> <!-- bon endroit ? -->
                            <note xml:id="nmsy69b" dur.ppq="4" dur="4" oct="3" pname="g"
                               stem.dir="down">
                               <verse xml:id="v15sfv06" label="section" n="3">
