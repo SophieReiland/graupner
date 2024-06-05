@@ -40,7 +40,7 @@
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/18"></graphic>
          </surface>
          
-         <surface type="continuoPart" xml:id="facsimile_030">
+         <surface type="violonePart" xml:id="facsimile_030">
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/30"></graphic>
          </surface>
          
@@ -317,6 +317,7 @@
                      </staff>
                      <staff xml:id="sx3mg0v" n="14">
                         <layer xml:id="l1tbexge" n="1">
+                           <pb facs="#facsimile_038" type="sourceFirstPageCantoI" corresp="parentScore#manifestation_1_source_A"></pb>
                            <rest xml:id="r1c9gety" dur.ppq="8" dur="4" />
                            <rest xml:id="rz24ihl" dur.ppq="4" dur="8" />
                            <note xml:id="n2j1k4s" dur.ppq="4" dur="8" oct="4" pname="g" stem.dir="up">
@@ -388,6 +389,9 @@
                      </staff>
                      <staff xml:id="s2a81lu" n="20">
                         <layer xml:id="l1e0ra7q" n="1">
+                           <pb facs="#facsimile_010" type="sourceFirstPage" corresp="parentScore#manifestation_1_source_B"></pb>
+                           <pb facs="#facsimile_018" type="sourceFirstPageContinuo" corresp="parentScore#manifestation_1_source_A"></pb>
+                           <pb facs="#facsimile_030" type="sourceFirstPageViolone" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="ntov5em" dur.ppq="8" dur="1" oct="2" pname="b">
                               <accid xml:id="a54aqgb" accid="n" />
                            </note>
@@ -1190,6 +1194,7 @@
                                  <syl xml:id="skd84w6" con="d" wordpos="i">die</syl>
                               </verse>
                            </note>
+                           <pb facs="#facsimile_039" type="sourcePBCantoI" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="nvbcb4q" dur.ppq="4" dur="8" oct="4" pname="b" stem.dir="down">
                               <accid xml:id="agoeifu" accid="f" enclose="paren" />
                               <verse xml:id="v5e1dbi" label="section" n="18">
