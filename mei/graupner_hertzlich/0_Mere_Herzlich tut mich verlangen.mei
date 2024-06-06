@@ -439,8 +439,8 @@
       </revisionDesc>-->
    </meiHead>
    <music>
-      <facsimile xml:id="facsManifest1_sourceA_StimmeX"> <!-- à voir si nous voulons le faire  -->     
-         <surface xml:id="FacsContinuoPart"> <!-- issue # 41 -->
+<!--      <facsimile xml:id="facsManifest1_sourceA_StimmeX"> 
+         <surface xml:id="FacsContinuoPart"> <!-\- issue # 41 -\->
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/17" ></graphic>
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/18"></graphic>
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/19"></graphic>
@@ -502,7 +502,7 @@
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/48"></graphic>
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/49"></graphic>
          </surface>
-      </facsimile>
+      </facsimile>-->
       <facsimile xml:id="facs_Manifest1_sourceB">
  
          <surface> <!-- Quel XML:ID ici ? -->

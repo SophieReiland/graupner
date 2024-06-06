@@ -299,24 +299,28 @@
                      <mNum xml:id="m1gthgak" />
                      <staff xml:id="sv8z0hz" n="1">
                         <layer xml:id="l7xqjkl" n="1">
+                           <pb facs="#facsimile_036" type="sourceFirstPageHornI" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="n109wflm" dur.ppq="16" dur="2" oct="5" pname="e" stem.dir="down" />
                            <rest xml:id="r1brrafm" dur.ppq="16" dur="2" />
                         </layer>
                      </staff>
                      <staff xml:id="s17siye6" n="2">
                         <layer xml:id="l1p4mbnh" n="1">
+                           <pb facs="#facsimile_037" type="sourceFirstPageHornII" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="n12po34y" dur.ppq="16" dur="2" oct="4" pname="g" stem.dir="up" />
                            <rest xml:id="r1xu23mt" dur.ppq="16" dur="2" />
                         </layer>
                      </staff>
                      <staff xml:id="s12u3hgq" n="3">
                         <layer xml:id="lneucxg" n="1">
+                           <pb facs="#facsimile_031" type="sourceFirstPageOboeFluteI" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="nylutm4" dur.ppq="16" dur="2" oct="5" pname="c" stem.dir="down" />
                            <rest xml:id="rwwrib2" dur.ppq="16" dur="2" />
                         </layer>
                      </staff>
                      <staff xml:id="sm7q8kz" n="4">
                         <layer xml:id="ldxtssc" n="1">
+                           <pb facs="#facsimile_034" type="sourceFirstPageOboeFluteII" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="n1j2zgkj" dur.ppq="16" dur="2" oct="4" pname="a" stem.dir="up" />
                            <rest xml:id="r50il7g" dur.ppq="16" dur="2" />
                         </layer>
@@ -339,18 +343,21 @@
                      </staff>
                      <staff xml:id="slpd17c" n="8">
                         <layer xml:id="l13k0ree" n="1">
+                           <pb facs="#facsimile_020" type="sourceFirstPageViolinViolettI" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="n8cuc6y" dur.ppq="16" dur="2" oct="5" pname="c" stem.dir="down" />
                            <rest xml:id="r1ppl4ja" dur.ppq="16" dur="2" />
                         </layer>
                      </staff>
                      <staff xml:id="s5mcv58" n="9">
                         <layer xml:id="l1ysfqzx" n="1">
+                           <pb facs="#facsimile_023" type="sourceFirstPageViolinViolettaII" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="n1y5fg14" dur.ppq="16" dur="2" oct="4" pname="a" stem.dir="up" />
                            <rest xml:id="ru8h601" dur.ppq="16" dur="2" />
                         </layer>
                      </staff>
                      <staff xml:id="smxp5kg" n="10">
                         <layer xml:id="l7jmmvz" n="1">
+                           <pb facs="#facsimile_027" type="sourceFirstPageViola" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="n156cdtm" dur.ppq="16" dur="2" oct="4" pname="f" stem.dir="down" />
                            <rest xml:id="r1x4eaew" dur.ppq="16" dur="2" />
                         </layer>
@@ -408,6 +415,9 @@
                      </staff>
                      <staff xml:id="s1988ws" n="20">
                         <layer xml:id="l1i09j0x" n="1">
+                           <pb facs="#facsimile_002" type="sourceFirstPage" corresp="parentScore#manifestation_1_source_B"></pb>
+                           <pb facs="#facsimile_017" type="sourceFirstPageContinuo" corresp="parentScore#manifestation_1_source_A"></pb>
+                           <pb facs="#facsimile_029" type="sourceFirstPageViolone" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="n1vzb2tp" dur.ppq="8" dur="2" oct="3" pname="f" stem.dir="down" />
                            <rest xml:id="r1qc4ej4" dur.ppq="8" dur="2" />
                         </layer>
@@ -1533,6 +1543,7 @@
                      </staff>
                      <staff xml:id="snpxkjc" n="14">
                         <layer xml:id="lsuy129" n="1">
+                           <pb facs="#facsimile_041" type="sourceFirstPageCantoI" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="nvnnvya" dur.ppq="4" dur="2" oct="4" pname="a" stem.dir="up">
                               <verse xml:id="v1mnw0j4" label="section" n="1">
                                  <syl xml:id="s15to275" con="s" wordpos="s">Hilf,</syl>
@@ -1561,6 +1572,7 @@
                      </staff>
                      <staff xml:id="s140nqe8" n="15">
                         <layer xml:id="l1i7cl6w" n="1">
+                           <pb facs="#facsimile_042" type="sourceFirstPageCantoII" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="n97qks3" dur.ppq="4" dur="2" oct="4" pname="a" stem.dir="up">
                               <verse xml:id="v11y0csq" label="section" n="1">
                                  <syl xml:id="s16d9uqf" con="s" wordpos="s">Hilf,</syl>
@@ -1595,6 +1607,7 @@
                      </staff>
                      <staff xml:id="s1z0bamg" n="17">
                         <layer xml:id="l16eltrq" n="1">
+                           <pb facs="#facsimile_044" type="sourceFirstPageAlto" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="n1h2bld4" dur.ppq="4" dur="2" oct="4" pname="f" stem.dir="up">
                               <verse xml:id="vpic9d1" label="section" n="1">
                                  <syl xml:id="s112oo58" con="s" wordpos="s">Hilf,</syl>
@@ -1623,6 +1636,7 @@
                      </staff>
                      <staff xml:id="s16pjei2" n="18">
                         <layer xml:id="l1f6j8ar" n="1">
+                           <pb facs="#facsimile_047" type="sourceFirstPageTenor" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="nohi102" dur.ppq="4" dur="2" oct="4" pname="c" stem.dir="down">
                               <verse xml:id="vnfiwjh" label="section" n="1">
                                  <syl xml:id="s1t2mx13" con="s" wordpos="s">Hilf,</syl>
@@ -1651,6 +1665,7 @@
                      </staff>
                      <staff xml:id="svykley" n="19">
                         <layer xml:id="lsxsyrb" n="1">
+                           <pb facs="#facsimile_049" type="sourceFirstPageBass" corresp="parentScore#manifestation_1_source_A"></pb>
                            <note xml:id="n3ebuw" dur.ppq="4" dur="2" oct="3" pname="f" stem.dir="down">
                               <verse xml:id="v12jfw3g" label="section" n="1">
                                  <syl xml:id="s1ge04ig" con="s" wordpos="s">Hilf,</syl>
