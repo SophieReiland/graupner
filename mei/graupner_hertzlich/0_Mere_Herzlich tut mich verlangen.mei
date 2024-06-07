@@ -4,6 +4,11 @@
 <!DOCTYPE doc [
 <!ENTITY movement_1 SYSTEM "1_Choral_Herzlich tut mich verlangen.mei">
 <!ENTITY movement_2 SYSTEM "2_Coro_Herzlich tut mich verlangen.mei">
+<!ENTITY movement_2 SYSTEM "3_Aria_Herzlich tut mich verlangen.mei">
+<!ENTITY movement_2 SYSTEM "4_Rezitativ_Herzlich tut mich verlangen.mei">
+<!ENTITY movement_2 SYSTEM "5_Aria_Herzlich tut mich verlangen.mei">
+<!ENTITY movement_2 SYSTEM "6_Rezitativ_Herzlich tut mich verlangen.mei">
+<!ENTITY movement_2 SYSTEM "7_Choral_Herzlich tut mich verlangen.mei">
 ]> 
 
 
@@ -200,10 +205,8 @@
                   Takt 7, Vln 1, Ob 1. <!-- faire un renvoi -->
                </p>
 
-               <p>
-                  <!-- issue #38 --> Wir folgen der Bezifferung der Continuostimme, <ref
-                     corresp="#facsimile_017_019">Fol. 8v-9v</ref> die sehr detailliert ist. <locus
-                     type="folio"/> Lediglich die Versetzungszeichen werden an moderne Konventionen
+               <p><!-- issue #38 --> 
+                  Wir folgen der Bezifferung der Continuostimme, <ref corresp="#facsimile_017_019">Fol. 8v-9v</ref> die sehr detailliert ist. Lediglich die Versetzungszeichen werden an moderne Konventionen
                   angepasst, ohne dass dies in der Partitur kenntlich gemacht oder in einem
                   kritischen Kommentar erläutert wird. </p>
 
@@ -546,10 +549,10 @@
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/49"></graphic>
          </surface>
       </facsimile>-->
-      <facsimile xml:id="facs_Manifest1_sourceB">
+<!--      <facsimile xml:id="facs_Manifest1_sourceB">
 
          <surface>
-            <!-- Quel XML:ID ici ? -->
+            <!-\- Quel XML:ID ici ? -\->
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/2"/>
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/3"/>
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/4"/>
@@ -566,7 +569,7 @@
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/15"/>
          </surface>
       </facsimile>
-
+-->
 
       <body>
          <mdiv
