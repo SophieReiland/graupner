@@ -28,10 +28,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+       
    </meiHead>
    <music>
       <facsimile>
-         
          <surface type="score" xml:id="facsimile_011">
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/11"></graphic>
          </surface>
@@ -99,6 +99,8 @@
          <surface type="cantoIPart" xml:id="facsimile_40">
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/40"></graphic>
          </surface>
+         
+          
          
       </facsimile>
       <body>

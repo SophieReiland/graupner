@@ -47,12 +47,22 @@
          </pubStmt>
          <sourceDesc xml:id="sjfgadk">
             <!-- issue #28 -->
-            <source xml:id="source_A" corresp="#manifestation_1_sourceA">
-               <locusGrp>
-                  <locus/>
-               </locusGrp>
+            <source xml:id="source_A" corresp="#manifestation_1_sourceA"> 
+                <bibl>
+                   <seg>
+                      <relationList label="parts">
+                         <relationList label="hautbois" xml:id="partieHautbois">
+                            <relation rel="isPartOf" label="p_1" corresp="#pageFacsimile"></relation>
+                            <relation rel="isPartOf" label="p_2" corresp="#pageFacsimile"></relation>
+                               
+                         </relationList>
+                         
+                        
+                      </relationList>
+                   </seg>
+                </bibl>
             </source>
-            <source xml:id="source_B" corresp="#manifestation_1_sourceB"/>
+            <source xml:id="source_B"  target="" corresp="#manifestation_1_sourceB"/>
             <source xml:id="source_C" corresp="#manifestation_2"/>
 
             <source>
@@ -78,10 +88,6 @@
          </appInfo>
 
          <editorialDecl>
-
-
-
-
             <segmentation>
                <head>[Gliederung]</head>
                <p type="movements" corresp="#FacsViolino1Part"> Graupner verwendet keine
@@ -390,8 +396,10 @@
                   <layout type="useOfSpace">Seite in Partitur maximal ausgenutzt </layout>
                   <layout type="manuscriptStructure">
                      <locusGrp>
+                       
                         <locus xml:id="manifestation_1_sourceB" corresp="#source_B"> Partitur Fol.
                            1r-7v </locus>
+                      
                         <locus xml:id="manifestation_1_sourceA" corresp="#source_A"> Instrumental-
                            und Vokalstimmen Fol. 8r-28v </locus>
                      </locusGrp>
@@ -416,11 +424,12 @@
                   <identifier auth="RISM-ID">450005983</identifier>
                </repository>
             </physLoc>
+            
             <langUsage>
                <language>Deutsch</language>
             </langUsage>
 
-            <contents> </contents>
+            
          </manifestation>
          <manifestation xml:id="manifestation_2" type="textsource">
             <titleStmt>
@@ -548,8 +557,8 @@
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/48"></graphic>
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/49"></graphic>
          </surface>
-      </facsimile>-->
-<!--      <facsimile xml:id="facs_Manifest1_sourceB">
+      </facsimile>
+      <facsimile xml:id="facs_Manifest1_sourceB">
 
          <surface>
             <!-\- Quel XML:ID ici ? -\->
@@ -572,7 +581,7 @@
 -->
 
       <body>
-         <mdiv
+         <mdiv 
             corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/1_Choral_Herzlich%20tut%20mich%20verlangen.mei?"
             xml:id="Choral_Herzlich_01"/>
          <mdiv
