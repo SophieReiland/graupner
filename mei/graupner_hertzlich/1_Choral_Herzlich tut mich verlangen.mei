@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!DOCTYPE doc [
@@ -1914,7 +1914,10 @@
                                  <accid xml:id="a165uaf1" accid="s" />
                               </note>
                               <note xml:id="nkllbyv" dur.ppq="2" dur="16" oct="4" pname="c" stem.dir="down" accid.ges="s" />
-                              <note xml:id="n2qgw6z" dots="1" dur.ppq="6" dur="8" oct="4" pname="c" cue="true" stem.dir="down" accid.ges="s" />
+                              <app>
+                                 <lem><note xml:id="n2qgw6z" dots="1" dur.ppq="6" dur="8" oct="4" pname="c" cue="true" stem.dir="down" accid.ges="s" /><annot>Rhythmus angeglichen an <ref target="#nzxmp57">Vol. 1</ref> und <ref target="#nh3ac96">2</ref> und <ref target="#np2xvav">Ob. 1</ref></annot></lem>
+                                 <rdg><note xml:id="n2qgfhjgw6z"  dur.ppq="6" dur="8" oct="4" pname="c" cue="true" stem.dir="down" accid.ges="s" /></rdg>
+                              </app>
                               <note xml:id="n1j0nhl8" dur.ppq="2" dur="16" oct="4" pname="a" cue="true" stem.dir="down" />
                            </beam>
                         </layer>
@@ -2480,7 +2483,10 @@
                            <note xml:id="nt9bvci" dur.ppq="4" dur="8" oct="4" pname="g" stem.dir="up" />
                            <beam xml:id="b1oe46z2">
                               <note xml:id="n1s4echv" dots="1" dur.ppq="6" dur="8" oct="4" pname="b" stem.dir="down" accid.ges="f" />
-                              <note xml:id="nd88jbc" dur.ppq="1" dur="32" oct="5" pname="c" cue="true" stem.dir="down" />
+                              <app type="duration">
+                              <lem><note xml:id="ii6ztghik" dur.ppq="1" dur="32" oct="5" pname="c" cue="true" stem.dir="down" /></lem>
+                                 <rdg source="#source_A" target="0_Mere_Herzlich tut mich verlangen.mei#FacsViolinoVioletta1Part_page1"><note xml:id="nd88jbc" dur.ppq="1" dur="16" oct="5" pname="c" cue="true" stem.dir="down" /></rdg>
+                              </app>
                               <note xml:id="n1iripjq" dur.ppq="1" dur="32" oct="5" pname="d" cue="true" stem.dir="down" />
                            </beam>
                            <beam xml:id="bilvuk6">

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
@@ -4228,7 +4228,7 @@
                         <layer xml:id="lz2wh0s" n="1">
                            <rest xml:id="r1lzq22v" dur.ppq="16" dur="2" />
                            <rest xml:id="r3ufczr" dur.ppq="8" dur="4" />
-                           <rest xml:id="ryzjo82" dur.ppq="4" dur="8" cue="true" />
+                           <add resp="#editorReiland"><rest xml:id="ryzjo82" dur.ppq="4" dur="8" cue="true" /></add>
                            <note xml:id="n1pxgcop" dur.ppq="4" dur="8" oct="5" pname="e" stem.dir="down">
                               <verse xml:id="v1urspvt" n="1">
                                  <syl xml:id="s1nnpufx" con="s" wordpos="s">Wer</syl>
