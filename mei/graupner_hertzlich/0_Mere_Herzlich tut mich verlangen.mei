@@ -35,8 +35,7 @@
             </editor>
          </editionStmt>
          <pubStmt xml:id="pubStmtHerzlich">
-            <date xml:id="publish-date" isodate="2024-04">Mai 2024</date>
-            <!-- mettre à jour si besoin -->
+            <date xml:id="publish-date" isodate="2024-04">September 2024</date>
             <publisher xml:id="fdshsfdioa">IReMus</publisher>
             <address xml:id="ldhesf">
                <addrLine>Institut de recherche en Musicologie</addrLine>
@@ -46,25 +45,19 @@
             </address>
          </pubStmt>
          <sourceDesc xml:id="sjfgadk">
-            <!-- issue #28 -->
             <source xml:id="source_A" corresp="#manifestation_1_sourceA"> 
                 <bibl>
                    <seg>
                       <relationList label="parts">
                          <relationList label="continuo" xml:id="continuoPart">
-                            
                          </relationList>
                          <relationList label="violinVioletta1" xml:id="violinVioletta1Part">
-                            
                          </relationList>
                          <relationList label="violinVioletta2" xml:id="violinVioletta2Part">
-                            
                          </relationList>
                          <relationList label="viola" xml:id="violaPart">
-                            
                          </relationList>
                          <relationList label="violone" xml:id="violonePart">
-                            
                          </relationList>
                          <relationList label="oboeFlute1" xml:id="oboeFlute1Part">
                             <relation rel="isPartOf"  n="1" corresp="#FacsOboeFlute1_page1"></relation>
@@ -72,39 +65,27 @@
                             <relation rel="isPartOf" label="p_3" corresp="#FacsOboeFlute1_page3"></relation>
                          </relationList>
                          <relationList label="oboeFlute2" xml:id="oboeFlute2Part">
-                            
                          </relationList>
                          <relationList label="horn1" xml:id="horn1Part">
-                            
                          </relationList>
                          <relationList label="horn2" xml:id="horn2Part">
-                            
                          </relationList>
                          <relationList label="canto1" xml:id="canto1Part">
-                            
                          </relationList>
-                         <relationList label="canto2" xml:id="canto2Part">
-                            
+                         <relationList label="canto2" xml:id="canto2Part"> 
                          </relationList>
                          <relationList label="alto" xml:id="altoPart">
-                            
                          </relationList>
-                         <relationList label="tenor" xml:id="tenorPart">
-                            
+                         <relationList label="tenor" xml:id="tenorPart">  
                          </relationList>
                          <relationList label="bass" xml:id="bassPart">
-                            
                          </relationList>
-                        
                       </relationList>
                    </seg>
                 </bibl>
-             
             </source>
             <source xml:id="source_B"  target="#manifestation_1_sourceB"/>
-            <source xml:id="source_C" target="#manifestation_2"/>
-
-            <source>
+            <source xml:id="source_C" target="#manifestation_2">
                <!-- ergänzen: URL falls Veröffentlichung -->
                <bibl>
                   <title>Hertzlich thut mich verlangen (GWV 1165/21) <lb/>Édition critique de la
@@ -116,8 +97,6 @@
                   <unpub/>
                </bibl>
             </source>
-            
-          
          </sourceDesc>
       </fileDesc>
       <encodingDesc xml:id="encodingDescHerzlich">
@@ -133,10 +112,10 @@
                <head>[Gliederung]</head>
                <p type="movements" corresp="#FacsViolino1Part"> Graupner verwendet keine
                   Satzbezeichnungen im herkömmlichen Sinne, lediglich Text-Incipits und doppelte
-                  Taktstriche Er macht darüber hinaus Angaben zur musikalischen Form, wenn ein
-                  Instrument pausiert: "Recitat: tacet" <locus type="folio">Beispielsweise zu sehen
-                     auf Folio 10v</locus>
-                  <!-- issue #37 --> Die Sätze werden in dieser Edition in eckigen Klammern
+                  Taktstriche. Er macht darüber hinaus Angaben zur musikalischen Form, wenn ein
+                  Instrument pausiert: "Recitat: tacet" <ref type="folio">Beispielsweise zu sehen
+                     auf Folio 10v</ref>
+                  Die Sätze werden in dieser Edition in eckigen Klammern
                   folgendermaßen angegeben: <list>
                      <li>[1. Choral]</li>
                      <li>[2. Chor]</li>
@@ -151,48 +130,35 @@
 
             <interpretation>
                <head><title/></head>
-                <p type="sources"><!-- un paragraphe sur le statut des sources et de leurs composantes  les parties x et y d'une autre main n'ont pas été prises en compte, la source principale est la source_a  est la source princiaple, en cas de doute... --></p>
-            
-               
-               
+               <p type="sources"> In dieser Edition werden das Stimmmaterial als Hauptquelle gewertet, da es die genauste, von Graupners Hand erstellte Repräsentation des Werks darstellt. Die Stimmen, die nicht von seiner Hand stammen, werden zur Erstellung der Edition nicht berücksichtigt. Als Sekundärquelle (B) dient die Partitur.</p>
                <p type="repetitions"> Es werden die in den Quellen vorhandenen Wiederholungszeichen
                   verwendet, mit einer Ausnahme: In der handschriftlichen Partitur wird die
                   Choralstrophe am Ende nicht noch einmal notiert. Aus aufführungspraktischen
                   Gründen wurde die zweite Choralstrophe in dieser Edition am Ende ausnotiert. </p>
-
                <p type="alteration ambiguity"> Sollte Unklarheit bezüglich der Lesart eines
                   Versetzungszeichen bestehen, erscheint dieses in Klammern vor der Note und wird in
                   einem kritischen Bericht aufgeschlüsselt. </p>
-
                <p type="rhythmical homogenisation"> Sollte der Rhythmus zwischen zwei Stimmen, die
                   unisono geführt sind, von einander abweichen, werden sie aneinander angeglichen,
                   die Änderung in der Partitur durch Kleinstich angezeigt und in einem kritischen
                   Kommentar erläutert. </p>
-
                <p type="beams"> Graupner scheint Notenbalken zu verwenden, um eine Phrasierung
                   anzudeuten. Aus diesem Grund folgt die Edition der von Graupner verwendeten
                   Notengruppierung. </p>
-
                <p type="dynamics"> Graupner verwendet hauptsächlich die Dynamiken pp und f, seltener
                   p. In homophonen Passagen werden Dynamikangaben gegebenenfalls in der Partitur in
                   eckigen Klammern ergänzt und in einem kritischen Kommentar erläutert. </p>
-
                <p type="slurs"> Graupners Phrasierungsbögen lassen sich nicht eindeutig
                   rekonstruieren, da die Quellen einige Ungenauigkeiten aufweisen. Ergänzte
                   Phrasierungen werden durch gepunktete Linien dargestellt. </p>
-
                <p type="ornements"> Graupner scheint die Zeichen 𝆖 und + synonym zu verwenden, wie
-                  aus der Violinstimme hervorgeht. <locus type="folia">Fol. 10r, Takt 8, 17</locus>
-                  <!-- issue #37 --> In der Edition wird durchgängig 𝆖 verwendet, ohne dass dies in
-                  einem kritischen Kommentar erläutert wird. </p>
-
+                  aus der Violinstimme hervorgeht. <ref type="folia">Fol. 10r, Takt 8, 17</ref>
+                  In der Edition wird durchgängig 𝆖 verwendet, ohne dass dies in einem kritischen Kommentar erläutert wird. </p>
             </interpretation>
-
             <normalization>
                <p type="Order of instruments"> Es wird die Reihenfolge der einzelnen Instrumente der
                      <ref corresp="#source_B"> autographen Partitur</ref> beibehalten. </p>
-               <p type="clefs"> Es werden moderne Notenschlüssel verwendet.
-                  <!--Die Originalnotenschlüssel werden in Kleinstich am Anfang der jeweiligen Sätze angezeigt.-->
+               <p type="clefs"> Es werden durchgehend moderne Notenschlüssel verwendet.
                </p>
                <p type="instrumental and vocal nomenclature"> Die von Graupner in den einzelnen
                   Stimmen verwendeten Instrumenten- und Stimmbezeichnungen wurden den aktuellen
@@ -244,22 +210,18 @@
                         abgebildet.</li>
                   </list>
                </p>
-
                <p type="rests"> Pausen werden modernen Konventionen angepasst, ohne dass dies in der
                   Partitur kenntlich gemacht wird und einen kritischen Kommentar nach sich zieht. </p>
-
                <p type="beams">
-                  <!-- normalisation, interpretation or correction ? --> Sollte die Balkierung von
-                  zwei oder mehr unisono geführten Stimmen von einander abweichen, werden sie ohne
-                  kritischen Kommentar angeglichen. Dies geschah nur an einer Stelle im 1. Choral,
-                  Takt 7, Vln 1, Ob 1. <!-- faire un renvoi -->
+                  Sollte die Balkierung von zwei oder mehr unisono geführten Stimmen von einander abweichen, werden sie ohne
+                  kritischen Kommentar angeglichen. Dies geschah nur an einer Stelle im <ref>1. Choral,
+                     Takt 7, Vln 1, Ob 1. </ref>
                </p>
 
-               <p><!-- issue #38 --> 
+               <p>
                   Wir folgen der Bezifferung der Continuostimme, <ref corresp="#facsimile_017_019">Fol. 8v-9v</ref> die sehr detailliert ist. Lediglich die Versetzungszeichen werden an moderne Konventionen
                   angepasst, ohne dass dies in der Partitur kenntlich gemacht oder in einem
                   kritischen Kommentar erläutert wird. </p>
-
                <p type="text"> Für die Wiederherstellung des Textes dient der <ref
                      corresp="#source_C">Druck des Kantatentextzyklus</ref> als Quelle, da die
                   Orthographie und Zeichensetzung Graupners nicht immer leicht lesbar ist und starke
@@ -287,21 +249,18 @@
                   </list>
                </p>
             </normalization>
-
             <correction>
-
                <p type="rhythm"> Sollten die von Graupner verwendeten Rhythmen in Konflikt mit der
                   heutigen Notationskonvention stehen, werden Anpassungen genommen, die in einem
                   kritischen Kommentar dargelegt werden. In der Partitur werden rhythmische
                   Änderungen durch Kleinstich
-                  dargestellt.<!-- mettre à jour lorsque l'apparat critique sera mis en place -->
+                  dargestellt.
                </p>
                <p type="figuredBass"> Sollte eine Generalbassbezifferung Graupners in Konflikt mit
                   den anderen Stimmen stehen, wird diese korrigiert, in Klammern dargestellt und in
                   einem kritischen Kommentar erläutert. </p>
             </correction>
          </editorialDecl>
-
          <projectDesc>
             <p>Entstanden im Rahmen eines Praktikums am Institut de recherche en musicologie in
                Paris</p>
@@ -311,26 +270,20 @@
       <workList>
          <work xml:id="dfnjs">
             <identifier type="Graupner-Werke-Verzeichnis-Nummer">1165/21</identifier>
-            <!-- issue #24 -->
             <title>Herzlich tut mich verlangen</title>
-            <!-- issue #34 -->
-
             <composer xml:id="dkjsekjds">
                <persName role="composer" corresp="#graupnerC">Christoph Graupner</persName>
                <date startdate="1683" enddate="1760"/>
             </composer>
-
             <lyricist xml:id="sd03xkj">
                <persName role="lyricist" corresp="#lichtenbergJC">Johann Conrad
                   Lichtenberg</persName>
                <date startdate="1689" enddate="1751"/>
             </lyricist>
-
             <funder>
                <persName role="employer">Ernst-Ludwig von Hessen-Darmstadt</persName>
                <date startdate="1667" enddate="1739"/>
             </funder>
-
             <creation>
                <geogName>Darmstädter Hof</geogName>
                <date type="firstperformance">23. November 1721, 24. Sonntag nach
@@ -341,7 +294,6 @@
                <name role="musicalensemble">Hofkapelle zu Darmstadt</name>
                <persName role="musicaldirector" corresp="#graupnerC">Christoph Graupner</persName>
             </creation>
-
             <perfMedium>
                <perfResList type="instrumentation">
                   <perfRes>Horn in F 1</perfRes>
@@ -367,7 +319,6 @@
       </workList>
       <manifestationList>
          <manifestation xml:id="manifestation_1" type="musicalsource">
-            <!-- issue #39 -->
             <titleStmt>
                <title>Hertzlich thut mich verlangen</title>
                <composer>Christoph Graupner <date startdate="1683" enddate="1760"/>
@@ -376,18 +327,17 @@
                   <annot>Beim Vergleich der Handschrift unten in der Canto-2-Stimme mit den anderen
                      Instrumental- und Vokalstimmen liegt der Verdacht nahe, dass es sich um einen
                      Kopisten handelt.</annot>
-                  <locus>Fol. 23r</locus>
-                  <!-- issue #42 -->
+                  <ref>Fol. 23r</ref>
                </contributor>
                <contributor role="copist">Kopist 2 <annot>Beim Vergleich der Handschrift in der
                      Canto-[bis]-Stimme mit den anderen Instrumental- und Vokalstimmen liegt der
                      Verdacht nahe, dass es sich um einen Kopisten handelt.</annot>
-                  <locus>Fol. 24r</locus>
+                  <ref>Fol. 24r</ref>
                </contributor>
                <contributor role="copist">Kopist 3 <annot>Beim Vergleich der Handschrift in der
                      Alto-2-Stimme mit den anderen Instrumental- und Vokalstimmen liegt der Verdacht
                      nahe, dass es sich um einen Kopisten handelt.</annot>
-                  <locus>Fol. 26r</locus>
+                  <ref>Fol. 26r</ref>
                </contributor>
             </titleStmt>
             <physDesc>
@@ -467,8 +417,7 @@
                   <identifier auth="library">Mus ms 429-28</identifier>
                   <identifier auth="RISM-ID">450005983</identifier>
                </repository>
-            </physLoc>
-            
+            </physLoc>            
             <langUsage>
                <language>Deutsch</language>
             </langUsage> 
@@ -476,9 +425,7 @@
                <relation rel="isEmbodimentOf" target="#source_A"/>
                 <relation rel="isEmbodimentOf" target="#source_B"/>
             </relationList> 
-            
-         </manifestation>
-         
+         </manifestation>         
          <manifestation>
             <titleStmt>
                <title></title>
@@ -487,24 +434,15 @@
             <physLoc></physLoc>
             <langUsage>
                <language></language>
-            </langUsage>
-           
-            <itemList></itemList>
-        
-         </manifestation>
-         
-         <manifestation xml:id="manifestation_2" type="textsource">
-            
+            </langUsage>           
+            <itemList></itemList>        
+         </manifestation>         
+         <manifestation xml:id="manifestation_2" type="textsource">           
             <titleStmt>
-               <!-- issue #25 -->
                <title> Glaubige Sehnsucht nach seeligem Sterben Geistliche Betrachtungen/welche nach
                   gewissen in denen Fest- und Sontags Evangeliis enthaltenen Materien/poetisch
                   verfasset/In der Hoch=Fürstl. Hof=Capelle zu DARMSTADT das gantze 1721.te Jahr
                   hindurch in der ordentlichen Kirchen=MUSIC sollen musiciret werden.
-                  <!-- <titlePart type="textofcantata_Hertzlich"> [Ne peut que concerner une partie du titre principal]
-                     Glaubige Sehnsucht nach seeligem Sterben
-                     <num type="pagenumbers">Seite 171-173</num>
-                  </titlePart>-->
                </title>
                <author corresp="#lichtenbergJC"> Johann Conrad Lichtenberg <date startdate="1689"
                      enddate="1751"/>
@@ -548,13 +486,6 @@
             </langUsage>
          </manifestation>
       </manifestationList>
-      <!--<revisionDesc> Issue #35
-         <change>
-            <changeDesc>
-               <p></p>
-            </changeDesc>
-         </change>
-      </revisionDesc>-->
    </meiHead>
    <music>
      
@@ -690,8 +621,6 @@
             <graphic target="https://tudigit.ulb.tu-darmstadt.de/show/Mus-Ms-429-28/15"/>
          </surface>
       </facsimile>
-
-
       <body>
          <mdiv 
             corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/1_Choral_Herzlich%20tut%20mich%20verlangen.mei"
@@ -715,8 +644,5 @@
             corresp="https://raw.githubusercontent.com/SophieReiland/graupner/main/mei/graupner_hertzlich/7_Choral_Herzlich%20tut%20mich%20verlangen.mei"
             xml:id="Choral_Herzlich_07"/>
       </body>
-      <back>
-         <!-- issue #36 -->
-      </back>
    </music>
 </mei>
